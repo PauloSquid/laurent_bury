@@ -1,0 +1,3080 @@
+[
+  {
+    "auteur": null,
+    "titre": "Agnes Grey",
+    "date": "janvier 2021",
+    "editeur": "RBA France",
+    "genre": "Classiques de la littérature anglophone",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2021/01/1_f-198x300.jpg"
+  },
+  {
+    "auteur": null,
+    "titre": "Arcimboldo",
+    "date": "2007",
+    "editeur": "Skira",
+    "genre": "Beaux-arts, musique",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2024/07/Chefs-d-oeuvre-europeens-de-la-Phillips-collection.jpg"
+  },
+  {
+    "auteur": null,
+    "titre": "Cœur volé",
+    "date": "octobre 2006",
+    "editeur": "Albin Michel",
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/41GDWPY55SL-188x300.jpg"
+  },
+  {
+    "auteur": null,
+    "titre": "Faire de la vulnérabilité une force",
+    "date": "octobre 2020",
+    "editeur": "Plon",
+    "genre": "Développement personnel",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2021/03/9782259264662ORI-187x300.jpg"
+  },
+  {
+    "auteur": null,
+    "titre": "Faire de la vulnérabilité une force.",
+    "date": "octobre 2020",
+    "editeur": null,
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": null,
+    "titre": "Faux papiers",
+    "date": "février 2002",
+    "editeur": "Autrement",
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": null,
+    "titre": "La Collection Phillips. Un regard moderne",
+    "date": "2005",
+    "editeur": "Skira",
+    "genre": "Beaux-arts, musique",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/61oyCu48HUL-217x300.jpg"
+  },
+  {
+    "auteur": null,
+    "titre": "Mes blagues, ma philosophie",
+    "date": "mai 2014",
+    "editeur": "Presses Universitaires de France",
+    "genre": "Philosophie",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/81Q4SxVmOvL-199x300.jpg"
+  },
+  {
+    "auteur": null,
+    "titre": "Notre continent intérieur",
+    "date": "mars 2000",
+    "editeur": "Autrement",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": null,
+    "titre": "Shirley",
+    "date": "septembre 2022",
+    "editeur": "Pléiade",
+    "genre": "Classiques de la littérature anglophone",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2022/08/61yQUMleXxL-188x300.jpg"
+  },
+  {
+    "auteur": "Abram de SWAAN",
+    "titre": "Sous l’aile protectrice de l’État",
+    "date": "mars 1995",
+    "editeur": "Presses Universitaires de France",
+    "genre": "Philosophie",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Adair TURNER",
+    "titre": "Reprendre le contrôle de la dette. Pour une réforme radicale de la monnaie, du crédit et des banques",
+    "date": "avril 2017",
+    "editeur": "L’Atelier",
+    "genre": "Economie",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/710-yDinDZL-206x300.jpg"
+  },
+  {
+    "auteur": "Adam ZAMOYSKI",
+    "titre": "1812, la campagne tragique de Napoléon en Russie",
+    "date": "septembre 2014",
+    "editeur": "Piranha",
+    "genre": "Histoire",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2022/02/Napo-193x300.png"
+  },
+  {
+    "auteur": "Adam ZAMOYSKI",
+    "titre": "Napoléon, l’homme derrière le mythe",
+    "date": "mars 2022",
+    "editeur": "Piranha",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324094956im_/http://laurentburytraducteur.com/wp-content/uploads/2021/12/CopperDav-226x300.png"
+  },
+  {
+    "auteur": "Adam ZAMOYSKI",
+    "titre": "Napoléon, l’homme derrière le mythe,",
+    "date": "mars 2022",
+    "editeur": null,
+    "genre": "Histoire",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Ahmed RASHID",
+    "titre": "Asie centrale, champs de guerre",
+    "date": "mars 2002",
+    "editeur": "Autrement",
+    "genre": "Monde contemporain",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Ahmed RASHID",
+    "titre": "L’Ombre des taliban",
+    "date": "octobre 2001",
+    "editeur": "Autrement",
+    "genre": "Monde contemporain",
+    "info_supplementaires": "; nouvelle édition actualisée, mai 2022",
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/71Qx1VtDw4L-193x300.jpg"
+  },
+  {
+    "auteur": "Alan ELLENIUS",
+    "titre": "Iconographie, propagande et légitimation. Genèse de l’État moderne",
+    "date": "mars 2001",
+    "editeur": "Presses Universitaires de France",
+    "genre": "Philosophie",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/61lRNUhWvL-195x300.jpg"
+  },
+  {
+    "auteur": "Alane FERGUSON",
+    "titre": "Le Tueur à la médaille",
+    "date": "octobre 2008",
+    "editeur": "Toucan",
+    "genre": "Romans policiers, thrillers",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/https://laurentbury.000webhostapp.com/wp-content/uploads/2016/12/51aseyWt8EL-201x300.jpg"
+  },
+  {
+    "auteur": "Alasdair McINTYRE",
+    "titre": "Après la vertu",
+    "date": "janvier 1997",
+    "editeur": "Presses Universitaires de France",
+    "genre": "Philosophie",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/51VZmFM42L-197x300.jpg"
+  },
+  {
+    "auteur": "Amanda COETZEE",
+    "titre": "Le Sang d’un autre",
+    "date": "février 2012",
+    "editeur": "Toucan",
+    "genre": "Romans policiers, thrillers",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/51uaGTuQHOL-190x300.jpg"
+  },
+  {
+    "auteur": "Amy CHUA",
+    "titre": "Le Monde en feu. Violences sociales et mondialisation",
+    "date": "septembre 2007",
+    "editeur": "Seuil",
+    "genre": "Economie",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Amy HARMON",
+    "titre": "Ce que murmure le vent",
+    "date": "septembre 2021",
+    "editeur": "Les Belles-Lettres",
+    "genre": "Romans contemporains",
+    "info_supplementaires": "(publié en avril 2021 par France Loisirs)",
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2021/07/412Qk9I4wpS-189x300.jpg"
+  },
+  {
+    "auteur": "Amy HARMON",
+    "titre": "La Fille qui prenait les armes",
+    "date": "octobre 2023",
+    "editeur": "Les Belles-Lettres",
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2022/12/9782368129579-193x300.png"
+  },
+  {
+    "auteur": "Amy HARMON",
+    "titre": "Un tourbillon de sable et de cendre",
+    "date": "septembre 2022",
+    "editeur": "Les Belles-Lettres",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Amy HARMON",
+    "titre": "Un tourbillon de sable et de cendre,",
+    "date": "septembre 2022",
+    "editeur": "Charleston",
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2021/07/412Qk9I4wpS-189x300.jpg"
+  },
+  {
+    "auteur": "Amy HARMON",
+    "titre": "Un tourbillon de sable et de cendre.",
+    "date": "septembre 2022",
+    "editeur": "Charleston",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324094956im_/http://laurentburytraducteur.com/wp-content/uploads/2022/09/81GKufvfqXL-189x300.jpg"
+  },
+  {
+    "auteur": "Andrew MacGAHAN",
+    "titre": "Australia Underground",
+    "date": "octobre 2008",
+    "editeur": "Actes Sud",
+    "genre": "Romans policiers, thrillers",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/412XTHXfjJL-191x300.jpg"
+  },
+  {
+    "auteur": "Angela LEVIN",
+    "titre": "Harry, conversations avec le prince",
+    "date": "mai 2018",
+    "editeur": "Plon",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Angela LEVIN",
+    "titre": "Harry, conversations avec le prince.",
+    "date": "mai 2018",
+    "editeur": null,
+    "genre": "Divers",
+    "info_supplementaires": "; version poche, incluant un chapitre supplémentaire, octobre 2018",
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/41kxfGcl82L._SY346_-196x300.jpg"
+  },
+  {
+    "auteur": "Angus DEATON",
+    "titre": "La Grande Evasion : santé, richese et origine des inégalités",
+    "date": "août 2016",
+    "editeur": "PUF",
+    "genre": "Economie",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/https://laurentbury.000webhostapp.com/wp-content/uploads/2016/12/71v3u52axpL-207x300.jpg"
+  },
+  {
+    "auteur": "Angus DEATON",
+    "titre": "La Grande Evasion : santé, richesse et origine des inégalités",
+    "date": "août 2016",
+    "editeur": "Presses Universitaires de France",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/81TqEOPziBL-224x300.jpg"
+  },
+  {
+    "auteur": "Anne CASE et Angus DEATON",
+    "titre": "Morts de désespoir. L’avenir du capitalisme",
+    "date": "février 2021",
+    "editeur": "PUF",
+    "genre": "Economie",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Anne CASE et Angus DEATON",
+    "titre": "Morts de désespoir. L’avenir du capitalisme,",
+    "date": "février 2021",
+    "editeur": "Presses Universitaires de France",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2023/04/1680571861_couv_num_13084709-189x300.jpg"
+  },
+  {
+    "auteur": "Anne CASE et Angus DEATON",
+    "titre": "Morts de désespoir. L’avenir du capitalisme.",
+    "date": "février 2021",
+    "editeur": "PUF",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324094956im_/http://laurentburytraducteur.com/wp-content/uploads/2021/01/41PY93sR1L-211x300.jpg"
+  },
+  {
+    "auteur": "Anthony TROLLOPE",
+    "titre": "La Ferme d’Orley",
+    "date": "février 2023",
+    "editeur": "Piranha",
+    "genre": "Classiques de la littérature anglophone",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2022/07/Atroll-191x300.jpeg"
+  },
+  {
+    "auteur": "Anthony TROLLOPE",
+    "titre": "La Petite Maison d’Allington",
+    "date": "mai 2024",
+    "editeur": "Piranha",
+    "genre": "Classiques de la littérature anglophone",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2023/10/Allington-191x300.jpg"
+  },
+  {
+    "auteur": "Anthony TROLLOPE",
+    "titre": "La Petite Maison d’Allington,",
+    "date": "mai 2024",
+    "editeur": null,
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324094956im_/http://laurentburytraducteur.com/wp-content/uploads/2024/04/Barbraaaaaa-194x300.jpg"
+  },
+  {
+    "auteur": "Anthony TROLLOPE",
+    "titre": "Miss Mackenzie",
+    "date": "novembre 2008",
+    "editeur": "Autrement",
+    "genre": "Classiques de la littérature anglophone",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/51Pdg3rdm-L-196x300.jpg"
+  },
+  {
+    "auteur": "Anthony TROLLOPE",
+    "titre": "Rachel Ray",
+    "date": "mai 2011",
+    "editeur": "Autrement",
+    "genre": "Classiques de la littérature anglophone",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Arthur C. DANTO",
+    "titre": "Andy Warhol",
+    "date": "avril 2011",
+    "editeur": "Les Belles-Lettres",
+    "genre": "Beaux-arts, musique",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/41GlRA3As0L-197x300.jpg"
+  },
+  {
+    "auteur": "Arthur CONAN DOYLE",
+    "titre": "Visite sur les trois fronts",
+    "date": "janvier 2014",
+    "editeur": "Les Belles-Lettres",
+    "genre": "Histoire",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/41AQcG29G5L-197x300.jpg"
+  },
+  {
+    "auteur": "Arthur SCHLESINGER",
+    "titre": "Avec Jackie Kennedy",
+    "date": "septembre 2011",
+    "editeur": "Flammarion / Garnier-Flammarion",
+    "genre": "Histoire",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/51SIuALfU4L._SY346_-192x300.jpg"
+  },
+  {
+    "auteur": "Barbra STREISAND",
+    "titre": "My Name Is Barbra : Mémoires",
+    "date": "mai 2024",
+    "editeur": "Hoëbeke",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Barbra STREISAND",
+    "titre": "My Name Is Barbra : Mémoires,",
+    "date": "mai 2024",
+    "editeur": null,
+    "genre": "Beaux-arts, musique",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Barbra STREISAND",
+    "titre": "My Name Is Barbra : Mémoires.",
+    "date": "mai 2024",
+    "editeur": null,
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Ben PASTOR",
+    "titre": "Lumen",
+    "date": "juin 2009",
+    "editeur": "Actes Sud",
+    "genre": "Romans policiers, thrillers",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Ben PASTOR",
+    "titre": "Lune trompeuse",
+    "date": "février 2011",
+    "editeur": "Actes Sud",
+    "genre": "Romans policiers, thrillers",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/412XTHXfjJL-191x300.jpg"
+  },
+  {
+    "auteur": "Betty CANNON",
+    "titre": "Sartre et la psychanalyse",
+    "date": "novembre 1993",
+    "editeur": "Presses Universitaires de France",
+    "genre": "Philosophie",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/4129i8Rw-HL-200x300.jpg"
+  },
+  {
+    "auteur": "Brian FAGAN",
+    "titre": "La Grande Histoire de ce que nous devons aux animaux",
+    "date": "février 2017",
+    "editeur": "Vuibert",
+    "genre": "Histoire",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/81hQd-XEqNL-202x300.jpg"
+  },
+  {
+    "auteur": "Brittany KAISER",
+    "titre": "L’Affaire Cambridge Analytica, les dessous d’un scandale planétaire.",
+    "date": "janvier 2020",
+    "editeur": "HarperCollins",
+    "genre": "Monde contemporain",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2021/01/zakaria-194x300.png"
+  },
+  {
+    "auteur": "Caitlin SCHNEIDERHAN",
+    "titre": null,
+    "date": "janvier 2025",
+    "editeur": "De Fallois",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2024/12/medici-heist-5568712-212x300.jpg"
+  },
+  {
+    "auteur": "Caitlin SCHNEIDERHAN",
+    "titre": "Braquage à la florentine",
+    "date": "janvier 2025",
+    "editeur": null,
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324094956im_/http://laurentburytraducteur.com/wp-content/uploads/2024/10/81iIUMJjkzL._SL1500_-1-197x300.jpg"
+  },
+  {
+    "auteur": "Carlo Maria CIPOLLA",
+    "titre": "Le Poivre, le vin (et la laine) comme facteurs dynamiques du développement économique",
+    "date": "février 2013",
+    "editeur": "Presses Universitaires de France",
+    "genre": "Philosophie",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/61X9zSZbyhL-1-195x300.jpg"
+  },
+  {
+    "auteur": "Carlo Maria CIPOLLA",
+    "titre": "Les Lois fondamentales de la stupidité humaine",
+    "date": "avril 2012",
+    "editeur": "Presses Universitaires de France",
+    "genre": "Philosophie",
+    "info_supplementaires": "Edition illustrée par Claude Ponti, 2014",
+    "image_url": null
+  },
+  {
+    "auteur": "Charan RANGANATH",
+    "titre": null,
+    "date": "avril 2025",
+    "editeur": "Leduc",
+    "genre": "Divers",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Charan RANGANATH",
+    "titre": "Les Pouvoirs cachés des souvenirs",
+    "date": "avril 2025",
+    "editeur": "Lattès",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Charan RANGANATH",
+    "titre": "Les Pouvoirs cachés des souvenirs.",
+    "date": "avril 2025",
+    "editeur": "Leduc",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Charles DICKENS",
+    "titre": "David Copperfield",
+    "date": "mars 2022",
+    "editeur": "Collection Boussole",
+    "genre": "Classiques de la littérature anglophone",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2021/03/Twist-228x300.png"
+  },
+  {
+    "auteur": "Charles DICKENS",
+    "titre": "David Copperfield.",
+    "date": "mars 2022",
+    "editeur": "Collection Boussole",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324094956im_/http://laurentburytraducteur.com/wp-content/uploads/2022/02/41IsdKV5OQL._SY346_-192x300.jpg"
+  },
+  {
+    "auteur": "Charles DICKENS",
+    "titre": "Oliver Twist",
+    "date": "mars 2021",
+    "editeur": "Collection Boussole",
+    "genre": "Classiques de la littérature anglophone",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324094956im_/http://laurentburytraducteur.com/wp-content/uploads/2021/03/9782259264662ORI-187x300.jpg"
+  },
+  {
+    "auteur": "Chris BAIL",
+    "titre": "Le Prisme des réseaux sociaux, Polarisation politique sur Internet",
+    "date": "avril 2023",
+    "editeur": "Presses Universitaires de France",
+    "genre": "Sociologie",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324094956im_/http://laurentburytraducteur.com/wp-content/uploads/2023/04/81VcHZRoUEL-185x300.jpg"
+  },
+  {
+    "auteur": "Chris MOONEY",
+    "titre": "L’Enfant à la luge",
+    "date": "mai 2005",
+    "editeur": "Seuil",
+    "genre": "Romans policiers, thrillers",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/61Qvm3JWHgL-183x300.jpg"
+  },
+  {
+    "auteur": "Christian GOLLIER",
+    "titre": null,
+    "date": "novembre 2019",
+    "editeur": "Presses Universitaires de France",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2020/06/517OS7f3amL._SX325_BO1204203200_-197x300.jpg"
+  },
+  {
+    "auteur": "Christian GOLLIER",
+    "titre": "Finance responsable pour une société meilleure",
+    "date": "novembre 2019",
+    "editeur": "PUF",
+    "genre": "Economie",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2021/01/41PY93sR1L-211x300.jpg"
+  },
+  {
+    "auteur": "Cornelia READ",
+    "titre": "Champs d’ombres",
+    "date": "juin 2007",
+    "editeur": "Actes Sud",
+    "genre": "Romans policiers, thrillers",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/411pk27DnoL-194x300.jpg"
+  },
+  {
+    "auteur": "Cornelia READ",
+    "titre": "L’Ecole des dingues",
+    "date": "septembre 2009",
+    "editeur": "Actes Sud",
+    "genre": "Romans policiers, thrillers",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Cornelia READ",
+    "titre": "L’Enfant invisible",
+    "date": "mai 2011",
+    "editeur": "Actes Sud",
+    "genre": "Romans policiers, thrillers",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/https://laurentbury.000webhostapp.com/wp-content/uploads/2016/12/41Rniug2tWL-181x300.jpg"
+  },
+  {
+    "auteur": "D. HANSON",
+    "titre": "Les Guerres grecques",
+    "date": "décembre 1999",
+    "editeur": "Autrement",
+    "genre": "Histoire",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/https://laurentbury.000webhostapp.com/wp-content/uploads/2016/12/518ZMR5BX0L-222x300.jpg"
+  },
+  {
+    "auteur": "D.H. LAWRENCE",
+    "titre": "Femmes a",
+    "date": "octobre 2024",
+    "editeur": "Pléiade",
+    "genre": "Classiques de la littérature anglophone",
+    "info_supplementaires": "(traduction, notice et notes)",
+    "image_url": null
+  },
+  {
+    "auteur": "D.H. LAWRENCE",
+    "titre": "Femmes amoureuses",
+    "date": "octobre 2024",
+    "editeur": "Pléiade",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2024/10/GSO-188x300.jpg"
+  },
+  {
+    "auteur": "D.K. HOOD",
+    "titre": "Pas un bruit",
+    "date": "décembre 2024",
+    "editeur": "Les Belles-Lettres",
+    "genre": "Romans policiers, thrillers",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "D.K. HOOD",
+    "titre": "Pas un souffle",
+    "date": "juin 2025",
+    "editeur": "Les Belles-Lettres",
+    "genre": "Romans policiers, thrillers",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2024/10/81iIUMJjkzL._SL1500_-1-197x300.jpg"
+  },
+  {
+    "auteur": "D.K. HOOD",
+    "titre": "Pas un souffle.",
+    "date": "juin 2025",
+    "editeur": "Bookouture",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324094956im_/http://laurentburytraducteur.com/wp-content/uploads/2024/11/81tRuG7bzTL._AC_UF10001000_QL80_-199x300.jpg"
+  },
+  {
+    "auteur": "Daniel DEFOE",
+    "titre": "Moll Flanders",
+    "date": "mai 2021",
+    "editeur": "RBA France",
+    "genre": "Classiques de la littérature anglophone",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2021/04/Moll-201x300.png"
+  },
+  {
+    "auteur": "Daniel DEFOE",
+    "titre": "Robinson Crusoé",
+    "date": "mars 2023",
+    "editeur": "Collection Boussole",
+    "genre": "Classiques de la littérature anglophone",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2022/11/Robin-2-2-227x300.png"
+  },
+  {
+    "auteur": "Daniel DEFOE",
+    "titre": "Robinson Crusoé.",
+    "date": "mars 2023",
+    "editeur": "Collection Boussole",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2022/11/Robin-2-2-227x300.png"
+  },
+  {
+    "auteur": "Daniel J. MAHONEY",
+    "titre": "Le libéralisme de Raymond Aron",
+    "date": "février 1998",
+    "editeur": "De Fallois",
+    "genre": "Philosophie",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/71p-KMWNzQL-204x300.jpg"
+  },
+  {
+    "auteur": "Daniel TAMMET",
+    "titre": "L’Eternité dans une heure, la poésie des nombres",
+    "date": "janvier 2013",
+    "editeur": null,
+    "genre": "Divers",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Daniel TAMMETT",
+    "titre": "L’Eternité dans une heure, la poésie des nombres",
+    "date": "janvier 2013",
+    "editeur": "Les Arènes",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Daniel WALLACE",
+    "titre": "Big Fish",
+    "date": "février 2004",
+    "editeur": "Autrement",
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/https://laurentbury.000webhostapp.com/wp-content/uploads/2016/12/51WGSF28KVL-197x300.jpg"
+  },
+  {
+    "auteur": "Daniel WALLACE",
+    "titre": "Le Roi de la pastèque",
+    "date": "mars 2005",
+    "editeur": "Autrement",
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Daniel WALLACE",
+    "titre": "Ô Grand Rosenfeld",
+    "date": "septembre 2006",
+    "editeur": "Autrement",
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/41R75JM2YGL-196x300.jpg"
+  },
+  {
+    "auteur": "David FARRIER",
+    "titre": "Empreintes, à la recherche des fossiles du futur",
+    "date": "mars 2021",
+    "editeur": "Plon",
+    "genre": "Philosophie",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "David GUTERSON",
+    "titre": "Le Pacte",
+    "date": "octobre 2009",
+    "editeur": "Feuille Bleue",
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/51D2gNh-IKL-194x300.jpg"
+  },
+  {
+    "auteur": "David HARVEY",
+    "titre": "Chroniques anti-capitalistes",
+    "date": "octobre 2023",
+    "editeur": "Vuibert",
+    "genre": "Economie",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2023/10/Chroniques-anti-capitalistes-200x300.jpg"
+  },
+  {
+    "auteur": "David WALTNER-TOEWS",
+    "titre": "Merde… Ce que les excréments nous apprennent sur l’écologie, l’évolution et le développement durable",
+    "date": "février 2015",
+    "editeur": "Piranha",
+    "genre": "Divers",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/71WPRwtDvoL-194x300.jpg"
+  },
+  {
+    "auteur": "Deborah HARKNESS",
+    "titre": "L’Oracle de l’oiseau noir",
+    "date": "octobre 2024",
+    "editeur": "Les Belles-Lettres",
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324094956im_/http://laurentburytraducteur.com/wp-content/uploads/2024/07/L-Oracle-de-l-oiseau-noir-194x300.jpg"
+  },
+  {
+    "auteur": "Dianne FEINSTEIN",
+    "titre": "La CIA et la torture",
+    "date": "février 2015",
+    "editeur": "Les Arènes",
+    "genre": "Monde contemporain",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Didier ZANETTE",
+    "titre": "Peuples de la mer, peuples d’artistes",
+    "date": "2016",
+    "editeur": "DZ Editions",
+    "genre": "Beaux-arts, musique",
+    "info_supplementaires": "12/51R7eABxyFL-200x300.jpg\" srcset=, \" Traduit en anglais. DZ Editions",
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/51R7eABxyFL-200x300.jpg"
+  },
+  {
+    "auteur": "Dorothy GALLAGHER",
+    "titre": "Un drôle d’héritage",
+    "date": "octobre 2003",
+    "editeur": "Autrement",
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2023/07/51Z045P9ADL._SX195_.jpg"
+  },
+  {
+    "auteur": "Edith EGER",
+    "titre": "La Ballerine d’Auschwitz",
+    "date": null,
+    "editeur": "Charleston",
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Edith SIZOO",
+    "titre": "Responsabilité et cultures du monde. Dialogue autour d’un défi collectif",
+    "date": "mai 2008",
+    "editeur": "Charles Leopold Mayer",
+    "genre": "Philosophie",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/41lNRbTe9hL._SX316_BO1204203200_-191x300.jpg"
+  },
+  {
+    "auteur": "Eric JAGER",
+    "titre": "Le Dernier Duel",
+    "date": "février 2010",
+    "editeur": "Flammarion / Garnier-Flammarion",
+    "genre": "Histoire",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/51maBWq64CL-190x300.jpg"
+  },
+  {
+    "auteur": "Eric PUCHNER",
+    "titre": "La Musique des autres",
+    "date": "septembre 2008",
+    "editeur": "Albin Michel",
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/https://laurentbury.000webhostapp.com/wp-content/uploads/2016/12/41gAPQhw2YL-193x300.jpg"
+  },
+  {
+    "auteur": "Evelyn JUERS",
+    "titre": "Chemins d’exil",
+    "date": "septembre 2011",
+    "editeur": "Autrement",
+    "genre": "Biographies et études littéraires",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Fareed ZAKARIA",
+    "titre": "Retour vers le futur, 10",
+    "date": "janvier 2021",
+    "editeur": "Saint-Simon",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2021/11/Ferguson-196x300.png"
+  },
+  {
+    "auteur": "Fareed ZAKARIA",
+    "titre": "Retour vers le futur, 10 leçons pour l’avenir.",
+    "date": "janvier 2021",
+    "editeur": null,
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324094956im_/http://laurentburytraducteur.com/wp-content/uploads/2021/01/zakaria-194x300.png"
+  },
+  {
+    "auteur": "Fareed ZAKARIA",
+    "titre": "Retour vers le futur. 10 leçons pour l’avenir",
+    "date": "janvier 2021",
+    "editeur": null,
+    "genre": "Monde contemporain",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2022/02/61dq9IuR98L-201x300.jpg"
+  },
+  {
+    "auteur": "Fernanda EBERSTADT",
+    "titre": "Le Chant des gitans",
+    "date": "octobre 2007",
+    "editeur": "Albin Michel",
+    "genre": "Sociologie",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/510861MWB2L-193x300.jpg"
+  },
+  {
+    "auteur": "Filip REYNTJENS",
+    "titre": "Rwanda, gouverner après le génocide",
+    "date": "juin 2014",
+    "editeur": "Les Belles-Lettres",
+    "genre": "Monde contemporain",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Fiona CAPP",
+    "titre": "Ce sentiment océanique ; Mon retour au surf",
+    "date": "mai 2005",
+    "editeur": "Actes Sud",
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Frances HODGSON BURNETT",
+    "titre": "Le Jardin secret.",
+    "date": "mars 2024",
+    "editeur": "Belin Education",
+    "genre": "Classiques de la littérature anglophone",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2024/10/GSO-188x300.jpg"
+  },
+  {
+    "auteur": "Frances Hodgson BURNETT",
+    "titre": "Le Jardin secret.",
+    "date": "mars 2024",
+    "editeur": "Collection Boussole",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2024/05/03583173-228x300.jpg"
+  },
+  {
+    "auteur": "Frank Lloyd WRIGHT",
+    "titre": "L’Estampe japonaise",
+    "date": "octobre 2012",
+    "editeur": "Klincksieck",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Frank Lloyd WRIGHT",
+    "titre": "L’Estampe japonaise : une interprétation,",
+    "date": "octobre 2012",
+    "editeur": null,
+    "genre": "Beaux-arts, musique",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/https://laurentbury.000webhostapp.com/wp-content/uploads/2016/12/41218kWBmdL-225x300.jpg"
+  },
+  {
+    "auteur": "Garrett HARDIN",
+    "titre": "La Tragédie des communs",
+    "date": "avril 2018",
+    "editeur": "Presses Universitaires de France",
+    "genre": "Economie",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "George ELIOT",
+    "titre": "Le Moulin sur la",
+    "date": "septembre 2021",
+    "editeur": "RBA France",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "George ELIOT",
+    "titre": "Le Moulin sur la Floss",
+    "date": "septembre 2021",
+    "editeur": "RBA France",
+    "genre": "Classiques de la littérature anglophone",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/https://laurentbury.000webhostapp.com/wp-content/uploads/2016/12/31aJAysMmZL-184x300.jpg"
+  },
+  {
+    "auteur": "Georgia HUNTER",
+    "titre": "Alors que le monde s’éteint",
+    "date": "juin 2025",
+    "editeur": "Les Belles-Lettres",
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2025/04/Hunter-189x300.jpg"
+  },
+  {
+    "auteur": "Georgia HUNTER",
+    "titre": "Alors que le monde s’éteint.",
+    "date": "juin 2025",
+    "editeur": "Charleston",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Gloria ORIGGI",
+    "titre": "Dictionnaire des passions sociales",
+    "date": "avril 2019",
+    "editeur": "Presses Universitaires de France",
+    "genre": "Philosophie",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2019/04/71-47-66qZL-207x300.jpg"
+  },
+  {
+    "auteur": "Greg CAMPBELL",
+    "titre": "Diamants de sang",
+    "date": "janvier 2013",
+    "editeur": "Les Belles-Lettres",
+    "genre": "Monde contemporain",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/51jn4nroKbL-193x300.jpg"
+  },
+  {
+    "auteur": "Gretel EHRLICH",
+    "titre": "Ce paradis de glace, avec les Inuits du Groenland",
+    "date": "mai 2004",
+    "editeur": "Albin Michel",
+    "genre": "Sociologie",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/510861MWB2L-193x300.jpg"
+  },
+  {
+    "auteur": "H. REID",
+    "titre": "Les Guerres de l’âge industriel",
+    "date": "juillet 2001",
+    "editeur": "Autrement",
+    "genre": "Histoire",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/518ZMR5BX0L-222x300.jpg"
+  },
+  {
+    "auteur": "Halgrimur HELGASON",
+    "titre": "Contes de Grim",
+    "date": "novembre 2005",
+    "editeur": "Actes Sud",
+    "genre": "Beaux-arts, musique",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/https://laurentbury.000webhostapp.com/wp-content/uploads/2016/12/81xwaR6Ad1L-224x300.jpg"
+  },
+  {
+    "auteur": "Heather MARSHALL",
+    "titre": "Le Réseau",
+    "date": "mars 2023",
+    "editeur": "Les Belles-Lettres",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Heather MARSHALL",
+    "titre": "Le Réseau Jane",
+    "date": "mars 2023",
+    "editeur": "Charleston",
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2023/01/4151ZAZdThL-189x300.jpg"
+  },
+  {
+    "auteur": "Henry F. SKERRITT",
+    "titre": "Nyilyari Tjapangati : Vivre le Rêve",
+    "date": "mars 2015",
+    "editeur": "Arts d’Australie – Stéphane Jacob",
+    "genre": "Beaux-arts, musique",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/71k4kmb3NRL-242x300.jpg"
+  },
+  {
+    "auteur": "Henry JAMES",
+    "titre": "D’un continent l’autre",
+    "date": "septembre 2007",
+    "editeur": "La Quinzaine Littéraire",
+    "genre": "Classiques de la littérature anglophone",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/51MXifT9qYL-210x300.jpg"
+  },
+  {
+    "auteur": "Hermione LEE",
+    "titre": "Virginia Woolf ou l’aventure intérieure",
+    "date": "janvier 2000",
+    "editeur": "Autrement",
+    "genre": "Biographies et études littéraires",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/51YojS6hvSL-196x300.jpg"
+  },
+  {
+    "auteur": "Ian McGUIRE",
+    "titre": "Dans les eaux du grand nord",
+    "date": "mai 2017",
+    "editeur": "10/18",
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/51hKCRRsrOL-200x300.jpg"
+  },
+  {
+    "auteur": "Ian McGUIRE",
+    "titre": "Dans les eaux du grand nord,",
+    "date": "mai 2017",
+    "editeur": "10/18",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/51hKCRRsrOL-200x300.jpg"
+  },
+  {
+    "auteur": "Isabel FONSECA",
+    "titre": "Enterrez-moi debout, l’odyssée des tziganes",
+    "date": "février 2003",
+    "editeur": "Albin Michel",
+    "genre": "Sociologie",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/51Y1M60SB7L-191x300.jpg"
+  },
+  {
+    "auteur": "J. ROTHENSTEIN et M. GOODING",
+    "titre": "L’œil s’amuse",
+    "date": "novembre 1999",
+    "editeur": null,
+    "genre": "Divers",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/https://laurentbury.000webhostapp.com/wp-content/uploads/2016/12/51BQ9ZVVZ5L-227x300.jpg"
+  },
+  {
+    "auteur": "James LEVINE",
+    "titre": "Bingo’s Run",
+    "date": "mars 2015",
+    "editeur": "Piranha",
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "James RISEN",
+    "titre": "Etat de guerre",
+    "date": "mars 2006",
+    "editeur": "Albin Michel",
+    "genre": "Monde contemporain",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/51X2YBTTHZL-197x300.jpg"
+  },
+  {
+    "auteur": "Jan DALLEY",
+    "titre": "Un fascisme anglais, Diana et Oswald Mosley",
+    "date": "février 2001",
+    "editeur": "Autrement",
+    "genre": "Histoire",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/https://laurentbury.000webhostapp.com/wp-content/uploads/2016/12/51Q7HA8NJWL-194x300.jpg"
+  },
+  {
+    "auteur": "Jane AUSTEN",
+    "titre": "Northanger Abbey",
+    "date": "octobre 2020",
+    "editeur": "RBA France",
+    "genre": "Classiques de la littérature anglophone",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2021/01/persuasion.png"
+  },
+  {
+    "auteur": "Jane AUSTEN",
+    "titre": "Orgueil et préjugés",
+    "date": "novembre 2009",
+    "editeur": "Flammarion / Garnier-Flammarion",
+    "genre": "Classiques de la littérature anglophone",
+    "info_supplementaires": "août 2010 en GF (présentation et notes)",
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/51ZVvlp812L-176x300.jpg"
+  },
+  {
+    "auteur": "Jane AUSTEN",
+    "titre": "Persuasion",
+    "date": "novembre 2020",
+    "editeur": "RBA France",
+    "genre": "Classiques de la littérature anglophone",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Jane AUSTEN",
+    "titre": "Sanditon",
+    "date": "octobre 1997",
+    "editeur": "Lattès",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/91QDPeg9UYL-185x300.jpg"
+  },
+  {
+    "auteur": "Jane AUSTEN",
+    "titre": "Sanditon, roman achevé par une autre dame",
+    "date": "octobre 1997",
+    "editeur": "Lattès",
+    "genre": "Classiques de la littérature anglophone",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/51ZVvlp812L-176x300.jpg"
+  },
+  {
+    "auteur": "Jane AUSTEN et Seth GRAHAME-SMITH",
+    "titre": "Orgueil et préjugés et zombies",
+    "date": "novembre 2009",
+    "editeur": "Flammarion / Garnier-Flammarion",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Jason BURKE",
+    "titre": "Al-Qaida. La véritable histoire de l’islam radical",
+    "date": "mars 2005",
+    "editeur": "La Découverte",
+    "genre": "Monde contemporain",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/41T015NWCFL-191x300.jpg"
+  },
+  {
+    "auteur": "Jean-Louis BIGET",
+    "titre": "Albi, the Cathedral of Saint Cecilia",
+    "date": "2007",
+    "editeur": "Odyssée",
+    "genre": "Beaux-arts, musique",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2023/10/Albi-300x271.jpg"
+  },
+  {
+    "auteur": "Jennifer TSIEN",
+    "titre": "Le Mauvais Goût des autres, le jugement littéraire dans la France du XVIIIe siècle",
+    "date": "août 2017",
+    "editeur": "Hermann",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/91inpnWJRJL-212x300.jpg"
+  },
+  {
+    "auteur": "Jerry TONER",
+    "titre": "Libérez le Romain qui est en vous",
+    "date": "mars 2017",
+    "editeur": "Presses Universitaires de France",
+    "genre": "Histoire",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2023/07/518iDw2Nd9L._SL1500_-196x300.jpg"
+  },
+  {
+    "auteur": "Jerry TONER",
+    "titre": "L’Art de gouverner ses esclaves",
+    "date": "mars 2015",
+    "editeur": "Presses Universitaires de France",
+    "genre": "Histoire",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/https://laurentbury.000webhostapp.com/wp-content/uploads/2016/12/81Q4SxVmOvL-199x300.jpg"
+  },
+  {
+    "auteur": "Jill LIDDINGTON et Jill NORRIS",
+    "titre": "Histoire de",
+    "date": "mars 2018",
+    "editeur": null,
+    "genre": "Histoire",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/61iWji8qtBL-205x300.jpg"
+  },
+  {
+    "auteur": "Jill LIDDINGTON et Jill NORRIS",
+    "titre": "Histoire des suffragistes radicales : le combat oublié des ouvrières du nord de l’Angleterre",
+    "date": "mars 2018",
+    "editeur": "Libertalia",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/61iWji8qtBL-205x300.jpg"
+  },
+  {
+    "auteur": "Jim DOWNS",
+    "titre": "Les Origines troubles de l’épidémiologie",
+    "date": "septembre 2022",
+    "editeur": null,
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324094956im_/http://laurentburytraducteur.com/wp-content/uploads/2022/08/9782080283795_medium-193x300.jpg"
+  },
+  {
+    "auteur": "Jim DOWNS",
+    "titre": "Les Origines troubles de l’épidémiologie. Comment le colonialisme a transformé la médecine",
+    "date": "septembre 2022",
+    "editeur": "Autrement",
+    "genre": "Histoire",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2022/08/9782080283795_medium-193x300.jpg"
+  },
+  {
+    "auteur": "Jo TUCKMAN",
+    "titre": "Mexique : la démocratie interrompue",
+    "date": "octobre 2014",
+    "editeur": "Les Belles-Lettres",
+    "genre": "Monde contemporain",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/41WbVwB2sjL-239x300.jpg"
+  },
+  {
+    "auteur": "Johan NORBERG",
+    "titre": "Non, ce n’était pas mieux avant, 10 bonnes raisons d’avoir confiance en l’avenir",
+    "date": "mai 2017",
+    "editeur": "Plon",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/91KTkZvu7KL-185x300.jpg"
+  },
+  {
+    "auteur": "Johan NORBERG",
+    "titre": "Non, ce n’était pas mieux avant. 10 bonnes raisons d’avoir confiance en l’avenir,",
+    "date": "mai 2017",
+    "editeur": null,
+    "genre": "Divers",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "John BOYNE",
+    "titre": "La Maison Ipatiev (La Maison des intentions particulières)",
+    "date": "avril 2012",
+    "editeur": null,
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "John Boyne",
+    "titre": "La Maison Ipatiev",
+    "date": "avril 2012",
+    "editeur": "L’Archipel",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/51CLB1kRL8L-191x300.jpg"
+  },
+  {
+    "auteur": "John Fitzgerald KENNEDY",
+    "titre": "Une nation d’immigrants",
+    "date": "janvier 2019",
+    "editeur": null,
+    "genre": "Histoire",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/71KBrmzUnjL-180x300.jpg"
+  },
+  {
+    "auteur": "John Fitzgerald KENNEDY",
+    "titre": "Une nation d’immigrants,",
+    "date": "janvier 2019",
+    "editeur": "HarperCollins",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/71KBrmzUnjL-180x300.jpg"
+  },
+  {
+    "auteur": "John G. NEIHARDT",
+    "titre": "Face à l’arbre sacré ; mémoires d’un Indien sioux",
+    "date": "octobre 2005",
+    "editeur": "Albin Michel",
+    "genre": "Sociologie",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "John J. MILLER et Mark MOLESKY",
+    "titre": "Maudits Français ! Trois siècles de relations tumultueuses entre la France et l’Amérique",
+    "date": "mai 2005",
+    "editeur": "Saint-Simon",
+    "genre": "Histoire",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/https://laurentbury.000webhostapp.com/wp-content/uploads/2016/12/61AArnMLQbS-198x300.jpg"
+  },
+  {
+    "auteur": "John K. COOLEY",
+    "titre": "CIA et Jihad, 1951-2001",
+    "date": "février 2002",
+    "editeur": "Autrement",
+    "genre": "Monde contemporain",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/71Wb53Pu5oL-195x300.jpg"
+  },
+  {
+    "auteur": "John LOCKE",
+    "titre": "Que faire des pauvres ?",
+    "date": "mai 2013",
+    "editeur": "Presses Universitaires de France",
+    "genre": "Philosophie",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/61X9zSZbyhL-195x300.jpg"
+  },
+  {
+    "auteur": "John NICHOLS",
+    "titre": "Le Vice au pouvoir. La biographie de Dick Cheney",
+    "date": "février 2005",
+    "editeur": "Saint-Simon",
+    "genre": "Monde contemporain",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/514DAZAPVRL-194x300.jpg"
+  },
+  {
+    "auteur": "Jonathan DRORI",
+    "titre": "Ce que nous disent les arbres du monde",
+    "date": "mai 2019",
+    "editeur": "Hoëbeke",
+    "genre": "Divers",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2022/02/41IsdKV5OQL._SY346_-192x300.jpg"
+  },
+  {
+    "auteur": "Jonathan EIG",
+    "titre": "Mohamed Ali, une vie",
+    "date": "novembre 2018",
+    "editeur": "Marabout",
+    "genre": "Divers",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/41kxfGcl82L._SY346_-196x300.jpg"
+  },
+  {
+    "auteur": "Jonathan HASKEL et Stian WESTLAKE",
+    "titre": "Le Capitalisme sans capital",
+    "date": "mars 2019",
+    "editeur": "Presses Universitaires de France",
+    "genre": "Economie",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2023/07/61vmVPuIXQL._SL1500_-197x300.jpg"
+  },
+  {
+    "auteur": "Jonathan PHILLIPS",
+    "titre": "Une histoire moderne des croisades",
+    "date": "octobre 2010",
+    "editeur": "Flammarion / Garnier-Flammarion",
+    "genre": "Histoire",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Jonathan RANDAL",
+    "titre": "Oussama, la fabrication d’un terroriste",
+    "date": "août 2004",
+    "editeur": "Albin Michel",
+    "genre": "Monde contemporain",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/51X2YBTTHZL-197x300.jpg"
+  },
+  {
+    "auteur": "Jonathan SWIFT",
+    "titre": "Les Voyages de Gulliver",
+    "date": "mars 2025",
+    "editeur": "Collection Boussole",
+    "genre": "Classiques de la littérature anglophone",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324094956im_/http://laurentburytraducteur.com/wp-content/uploads/2024/11/Woolf-182x300.png"
+  },
+  {
+    "auteur": "Joseph STIGLITZ",
+    "titre": "La Route de la liberté. Economie et bonne société",
+    "date": "janvier 2025",
+    "editeur": "Les Liens qui Libèrent",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2024/12/51rDz8TqRqL._SL1092_-198x300.jpg"
+  },
+  {
+    "auteur": "Joseph STIGLITZ",
+    "titre": "Les Routes de la liberté",
+    "date": "janvier 2025",
+    "editeur": null,
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Joseph STIGLITZ",
+    "titre": "Les Routes de la liberté. Economie et bonne société",
+    "date": "janvier 2025",
+    "editeur": null,
+    "genre": "Economie",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Joyce APPLEBY",
+    "titre": "Capitalisme, histoire d’une révolution permanente",
+    "date": "mars 2016",
+    "editeur": "Piranha",
+    "genre": "Economie",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2022/02/9782371190351-475x500-1-191x300.jpg"
+  },
+  {
+    "auteur": "Judson BREWER",
+    "titre": "Le Craving. Pourquoi on devient accro et comment se libérer",
+    "date": "janvier 2020",
+    "editeur": "Les Arènes",
+    "genre": "Divers",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Julius ROTHENSTEIN et M. GOODING",
+    "titre": "L’œil s’amuse",
+    "date": "novembre 1999",
+    "editeur": "Autrement",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/51BQ9ZVVZ5L-227x300.jpg"
+  },
+  {
+    "auteur": "Kate CAMBOR",
+    "titre": "Belle-Epoque",
+    "date": "août 2009",
+    "editeur": "Flammarion / Garnier-Flammarion",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Kate CRAWFORD",
+    "titre": "Contre-Atlas de l’Intelligence Artificielle. Les coûts politiques sociaux et environnementaux de l’IA",
+    "date": "mars 2022",
+    "editeur": "Vuibert",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2022/02/61dq9IuR98L-201x300.jpg"
+  },
+  {
+    "auteur": "Kate CRAWFORD",
+    "titre": "Contre-Atlas de l’Intelligence Artificielle. Les coûts politiques, sociaux et environnementaux de l’IA",
+    "date": "mars 2022",
+    "editeur": null,
+    "genre": "Monde contemporain",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Kate Cambor",
+    "titre": "Belle Epoque",
+    "date": "août 2009",
+    "editeur": "Flammarion",
+    "genre": "Histoire",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Kate MORTON",
+    "titre": "Les Ombres d’Adelaide Hills",
+    "date": "avril 2023",
+    "editeur": "Les Belles-Lettres",
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2023/01/4151ZAZdThL-189x300.jpg"
+  },
+  {
+    "auteur": "Kate RAWORTH",
+    "titre": null,
+    "date": "novembre 2018",
+    "editeur": null,
+    "genre": "Economie",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/71FwiocgxbL-184x300.jpg"
+  },
+  {
+    "auteur": "Kate RAWORTH",
+    "titre": "La Théorie du Donut",
+    "date": "novembre 2018",
+    "editeur": "Plon",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/71FwiocgxbL-184x300.jpg"
+  },
+  {
+    "auteur": "Katherine KRESSMANN TAYLOR",
+    "titre": "Ainsi mentent les hommes",
+    "date": "mai 2004",
+    "editeur": "Autrement",
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Katherine KRESSMANN TAYLOR",
+    "titre": "Ainsi rêvent les femmes",
+    "date": "mars 2006",
+    "editeur": "Autrement",
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/41FPARX13ZL-197x300.jpg"
+  },
+  {
+    "auteur": "Katherine KRESSMANN TAYLOR",
+    "titre": "Jour sans retour",
+    "date": "janvier 2002",
+    "editeur": "Autrement",
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/51xDQcrJ18L-196x300.jpg"
+  },
+  {
+    "auteur": "Katherine MANSFIELD",
+    "titre": "Nouvelles",
+    "date": null,
+    "editeur": "Gallimard",
+    "genre": "Classiques de la littérature anglophone",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2024/11/Woolf-182x300.png"
+  },
+  {
+    "auteur": "Kathleen WALKER-MEIKLE",
+    "titre": "Chats du Moyen Age",
+    "date": "octobre 2013",
+    "editeur": "Les Belles-Lettres",
+    "genre": "Beaux-arts, musique",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/41WbVwB2sjL-239x300.jpg"
+  },
+  {
+    "auteur": "Kim Michele RICHARDSON",
+    "titre": "La Bibliothèque ambulante des Appalaches",
+    "date": "février 2024",
+    "editeur": "Les Belles-Lettres",
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2024/07/L-Oracle-de-l-oiseau-noir-194x300.jpg"
+  },
+  {
+    "auteur": "Knud HAAKONSSEN",
+    "titre": "L’art du législateur",
+    "date": "novembre 1998",
+    "editeur": "Presses Universitaires de France",
+    "genre": "Philosophie",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Kofi AGAWU",
+    "titre": "L’Imaginaire musical africain",
+    "date": "novembre 2020",
+    "editeur": null,
+    "genre": "Beaux-arts, musique",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Kofi AGAWU",
+    "titre": "L’imaginaire musical africain",
+    "date": "novembre 2020",
+    "editeur": "La Rue Musicale",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Kressmann TAYLOR",
+    "titre": "Ainsi mentent les hommes",
+    "date": "mai 2021",
+    "editeur": null,
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324094956im_/http://laurentburytraducteur.com/wp-content/uploads/2021/05/41U795Y9RaS._SY346_-190x300.jpg"
+  },
+  {
+    "auteur": "Kressmann TAYLOR",
+    "titre": "Jour sans retour",
+    "date": "octobre 2021",
+    "editeur": null,
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "L. MENCKEN",
+    "titre": "Comment peut-on être américain ?",
+    "date": "octobre 2004",
+    "editeur": "Saint-Simon",
+    "genre": "Sociologie",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Laura LIPPMAN",
+    "titre": "Celle qui devait mourir",
+    "date": "septembre 2012",
+    "editeur": "Toucan",
+    "genre": "Romans policiers, thrillers",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Laura LIPPMAN",
+    "titre": "Tes dernières volontés",
+    "date": "septembre 2011",
+    "editeur": "Toucan",
+    "genre": "Romans policiers, thrillers",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/51y9TyK9GtL-187x300.jpg"
+  },
+  {
+    "auteur": "Laurel BRAITMAN",
+    "titre": "Chienne de vie",
+    "date": "octobre 2014",
+    "editeur": "Autrement",
+    "genre": "Divers",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/91KTkZvu7KL-185x300.jpg"
+  },
+  {
+    "auteur": "Laurent de SUTTER",
+    "titre": "Accélération !",
+    "date": "avril 2016",
+    "editeur": "Presses Universitaires de France",
+    "genre": "Economie",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/https://laurentbury.000webhostapp.com/wp-content/uploads/2016/12/61vhwZ649OL-203x300.jpg"
+  },
+  {
+    "auteur": "Laurie COLWIN",
+    "titre": "Rien que du bonheur",
+    "date": "octobre 2006",
+    "editeur": "Autrement",
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Lawrence WRIGHT",
+    "titre": "Devenir clair : la scientologie, Hollywood et la prison de la foi",
+    "date": "octobre 2015",
+    "editeur": "Piranha",
+    "genre": "Divers",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/51FsGWhTfL-196x300.jpg"
+  },
+  {
+    "auteur": "Leslie A. MARCHAND",
+    "titre": "Byron, portrait d’un homme libre",
+    "date": "mai 1999",
+    "editeur": "Autrement",
+    "genre": "Biographies et études littéraires",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/41T2F7E5HSL-196x300.jpg"
+  },
+  {
+    "auteur": "Lewis CARROLL",
+    "titre": "Alice au pays des merveilles",
+    "date": "juillet 2009",
+    "editeur": null,
+    "genre": "Classiques de la littérature anglophone",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Lewis CARROLL",
+    "titre": "Aventures d’Alice au pays des merveilles",
+    "date": "juillet 2009",
+    "editeur": "Le Livre de Poche",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Lewis LAPHAM",
+    "titre": "L’Amérique bâillonnée",
+    "date": "mai 2004",
+    "editeur": "Saint-Simon",
+    "genre": "Monde contemporain",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/510YEHVQN1L-190x300.jpg"
+  },
+  {
+    "auteur": "Lisa REGAN",
+    "titre": "Son cri silencieux",
+    "date": "février 2025",
+    "editeur": "Les Belles-Lettres",
+    "genre": "Romans policiers, thrillers",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2025/04/51LjKVBWZSL._SL500_-1-193x300.jpg"
+  },
+  {
+    "auteur": "Lisa REGAN",
+    "titre": "Watch Her Disappear.",
+    "date": null,
+    "editeur": "Bookouture",
+    "genre": "Romans policiers, thrillers",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Lord BYRON",
+    "titre": "Don Juan",
+    "date": "juin 2006",
+    "editeur": "Gallimard",
+    "genre": "Classiques de la littérature anglophone",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/81FCWsZ0W2L-178x300.jpg"
+  },
+  {
+    "auteur": "Louise van SWAAJ et J. KLARE",
+    "titre": "Notre continent intérieur",
+    "date": "mars 2000",
+    "editeur": null,
+    "genre": "Divers",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Luke McCALLIN",
+    "titre": "L’Homme de Berlin",
+    "date": "octobre 2015",
+    "editeur": "Toucan",
+    "genre": "Romans policiers, thrillers",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/https://laurentbury.000webhostapp.com/wp-content/uploads/2016/12/51uaGTuQHOL-190x300.jpg"
+  },
+  {
+    "auteur": "Lydia MILLET",
+    "titre": "Ma vie, ma vie magnifique",
+    "date": "janvier 2005",
+    "editeur": "Autrement",
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Lynn MESKELL",
+    "titre": "Vies privées des Égyptiens ; Nouvel Empire 1575-1069",
+    "date": "avril 2002",
+    "editeur": "Autrement",
+    "genre": "Histoire",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/51Q7HA8NJWL-194x300.jpg"
+  },
+  {
+    "auteur": "Mainak DHAR",
+    "titre": "Flashpoint",
+    "date": "janvier 2008",
+    "editeur": "Actes Sud",
+    "genre": "Romans policiers, thrillers",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/416ic0Ev6cL-181x300.jpg"
+  },
+  {
+    "auteur": "Malcolm CHASE",
+    "titre": "Le Chartisme. Aux origines du mouvement ouvrier britannique (1838-1858)",
+    "date": "mai 2013",
+    "editeur": "Publications de la Sorbonne",
+    "genre": "Histoire",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/5133SqycJmL-199x300.jpg"
+  },
+  {
+    "auteur": "Marcus KLIEWER",
+    "titre": "C’était notre maison",
+    "date": null,
+    "editeur": "Charleston",
+    "genre": "Romans policiers, thrillers",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2025/03/71sYDoKlRL._SL1500_-1-199x300.jpg"
+  },
+  {
+    "auteur": "Marcus KLIEWER",
+    "titre": "We Used To Live Here",
+    "date": null,
+    "editeur": "Les Belles-Lettres",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Margaret MACMILLAN",
+    "titre": "Vers la grande guerre",
+    "date": "janvier 2014",
+    "editeur": "Autrement",
+    "genre": "Histoire",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/518aiLxkQ-L-194x300.jpg"
+  },
+  {
+    "auteur": "Mariel BUQUE",
+    "titre": "Briser le cycle",
+    "date": "octobre 2024",
+    "editeur": "Lattès",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2025/03/71pJmBxERHL._SL1500_-193x300.jpg"
+  },
+  {
+    "auteur": "Mariel BUQUE",
+    "titre": "Rompre le cycle : guérir des traumas intergénérationnels",
+    "date": "octobre 2024",
+    "editeur": "Leduc",
+    "genre": "Développement personnel",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Mariel BUQUE",
+    "titre": "Rompre le cycle: guérir des traumas intergénérationnels",
+    "date": "octobre 2024",
+    "editeur": "Leduc",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Mark McCRUM",
+    "titre": "On se fait la bise ? Le guide international des bonnes manières",
+    "date": "mai 2008",
+    "editeur": "Seuil",
+    "genre": "Divers",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/61So7fMvS8L-205x300.jpg"
+  },
+  {
+    "auteur": "Mark SPRAGG",
+    "titre": "De flamme et d’argile",
+    "date": "septembre 2012",
+    "editeur": "Gallmeister",
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/41WSDIIIv8L-199x300.jpg"
+  },
+  {
+    "auteur": "Mark SPRAGG",
+    "titre": "Le Fruit de la trahison",
+    "date": "mai 2007",
+    "editeur": "Albin Michel",
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Mark SPRAGG",
+    "titre": "Là où les rivières se séparent",
+    "date": "novembre 2005",
+    "editeur": "Albin Michel",
+    "genre": "Romans contemporains",
+    "info_supplementaires": "réédité en décembre 2014",
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/41VXIlv-K7L-191x300.jpg"
+  },
+  {
+    "auteur": "Martin MALIA",
+    "titre": "Histoire des révolutions",
+    "date": "octobre 2008",
+    "editeur": "Tallandier",
+    "genre": "Histoire",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/51dz9keHiL-202x300.jpg"
+  },
+  {
+    "auteur": "Martin STREL et Matthew MOHLKE",
+    "titre": "L’Amazone à la nage",
+    "date": "mai 2008",
+    "editeur": "Toucan",
+    "genre": "Divers",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/51aseyWt8EL-201x300.jpg"
+  },
+  {
+    "auteur": "Matt HAIG",
+    "titre": "Une vie impossible",
+    "date": "septembre 2024",
+    "editeur": "Charles Leopold Mayer",
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2024/12/medici-heist-5568712-212x300.jpg"
+  },
+  {
+    "auteur": "Matt HAIG",
+    "titre": "Une vie impossible.",
+    "date": "septembre 2024",
+    "editeur": null,
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324094956im_/http://laurentburytraducteur.com/wp-content/uploads/2024/04/rivaaa-203x300.jpg"
+  },
+  {
+    "auteur": "Matthew Gregory LEWIS",
+    "titre": "Le Moine",
+    "date": "septembre 2011",
+    "editeur": "Flammarion / Garnier-Flammarion",
+    "genre": "Classiques de la littérature anglophone",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/51NiHsxWhJL-184x300.jpg"
+  },
+  {
+    "auteur": "Matthew McBRIDE",
+    "titre": "Frank Sinatra dans un mixeur",
+    "date": "mai 2015",
+    "editeur": "Gallmeister",
+    "genre": "Romans policiers, thrillers",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/41XQBoTvMiL-203x300.jpg"
+  },
+  {
+    "auteur": "Matthew McBRIDE",
+    "titre": "Soleil rouge",
+    "date": "janvier 2017",
+    "editeur": "Gallmeister",
+    "genre": "Romans policiers, thrillers",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Meg SHAFFER",
+    "titre": "Rendez-vous sur l’île de l’horloge",
+    "date": "avril 2024",
+    "editeur": "Charles Leopold Mayer",
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2024/04/Rendez-vous-sur-l-ile-de-l-horloge-221x300.jpg"
+  },
+  {
+    "auteur": "Meg SHAFFER",
+    "titre": "Rendez-vous sur l’île de l’horloge.",
+    "date": "avril 2024",
+    "editeur": null,
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324094956im_/http://laurentburytraducteur.com/wp-content/uploads/2024/04/Rendez-vous-sur-l-ile-de-l-horloge-221x300.jpg"
+  },
+  {
+    "auteur": "Michael ALLABY",
+    "titre": "La Scandaleuse Vie sexuelle des plantes",
+    "date": "octobre 2018",
+    "editeur": "Hoëbeke",
+    "genre": "Divers",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/A1bjunDI6vL-1-223x300.jpg"
+  },
+  {
+    "auteur": "Michael Andre BERNSTEIN",
+    "titre": "La Mémoire des conspirateurs",
+    "date": "octobre 2005",
+    "editeur": "L’Olivier",
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/41VavW8T3FL-197x300.jpg"
+  },
+  {
+    "auteur": "Mike TYSON",
+    "titre": "La Vérité incontestée",
+    "date": "novembre 2013",
+    "editeur": "Les Arènes",
+    "genre": "Divers",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/71UgUcaPE4L-193x300.jpg"
+  },
+  {
+    "auteur": "Mikel DUNHAM",
+    "titre": "Les Guerriers de Bouddha. Histoire de l’invasion du Tibet par la Chine, de la résistance du peuple tibétain et du rôle joué par la CIA",
+    "date": "janvier 2007",
+    "editeur": "Actes Sud",
+    "genre": "Histoire",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/51s-BKW7SHL-180x300.jpg"
+  },
+  {
+    "auteur": "Milo BECKMAN",
+    "titre": "La Magie des maths sans nombres",
+    "date": "février 2022",
+    "editeur": "Albin Michel",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2022/02/41IsdKV5OQL._SY346_-192x300.jpg"
+  },
+  {
+    "auteur": "Milo BECKMAN",
+    "titre": "La Magie des maths sans nombres,",
+    "date": "février 2022",
+    "editeur": "Alisio",
+    "genre": "Divers",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Morley TORGOV",
+    "titre": "Meurtre en la majeur",
+    "date": "février 2010",
+    "editeur": "Actes Sud",
+    "genre": "Romans policiers, thrillers",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2023/04/413LK7ym-WL._SX210_-197x300.jpg"
+  },
+  {
+    "auteur": "Morton N. COHEN",
+    "titre": "Lewis Carroll, une vie, une légende",
+    "date": "février 1998",
+    "editeur": "Autrement",
+    "genre": "Biographies et études littéraires",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/413F74CEWML-192x300.jpg"
+  },
+  {
+    "auteur": "Moshik TEMKIN",
+    "titre": "Des guerriers, des rebelles et",
+    "date": "septembre 2025",
+    "editeur": "Alisio",
+    "genre": "Histoire",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2024/06/31E3QOD2MOL._SY445_SX342_-193x300.jpg"
+  },
+  {
+    "auteur": "Moshik TEMKIN",
+    "titre": "Des guerriers, des rebelles et des saints. L’art du leadership de Machiavel à Malcolm X",
+    "date": null,
+    "editeur": "Albin Michel",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Myla et Jon KABAT-ZINN",
+    "titre": "A chaque jour ses prodiges ; être parent en pleine conscience",
+    "date": "septembre 2012",
+    "editeur": "Les Arènes",
+    "genre": "Développement personnel",
+    "info_supplementaires": "; version révisée, août 2019",
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/8178oUlg5kL-1-208x300.jpg"
+  },
+  {
+    "auteur": "Ned CRABB",
+    "titre": "Meurtres à Willow Pond",
+    "date": "février 2016",
+    "editeur": "Gallmeister",
+    "genre": "Romans policiers, thrillers",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/https://laurentbury.000webhostapp.com/wp-content/uploads/2016/12/41YtqFKzthL-205x300.jpg"
+  },
+  {
+    "auteur": "Niall FERGUSON",
+    "titre": "Apocalypses, de l’Antiquité à nos jours",
+    "date": "octobre 2021",
+    "editeur": "Saint-Simon",
+    "genre": "Histoire",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2021/11/Ferguson-196x300.png"
+  },
+  {
+    "auteur": "Niall FERGUSON",
+    "titre": "Apocalypses, de l’Antiquité à nos jours.",
+    "date": "octobre 2021",
+    "editeur": null,
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Nick SRNICEK et Alex WILLIAMS",
+    "titre": "Accélérer le futur : post-capitalisme et post-travail",
+    "date": "avril 2017",
+    "editeur": "Cité du Design de Saint-Etienne",
+    "genre": "Economie",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/51LJtpqdoNL._SX348_BO1204203200_-210x300.jpg"
+  },
+  {
+    "auteur": "Nicole TROPE",
+    "titre": "La Famille d’en face",
+    "date": "avril 2024",
+    "editeur": "Les Belles-Lettres",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2024/02/Trope-197x300.jpg"
+  },
+  {
+    "auteur": "Nicole TROPE",
+    "titre": "La Famille d’en face.",
+    "date": "avril 2024",
+    "editeur": "Bookouture",
+    "genre": "Romans policiers, thrillers",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2024/02/Trope-197x300.jpg"
+  },
+  {
+    "auteur": "Oriel MALET",
+    "titre": "Marjory Fleming",
+    "date": "septembre 2002",
+    "editeur": "Autrement",
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "P. FROMM",
+    "titre": "Le Nom des étoiles",
+    "date": "avril 2016",
+    "editeur": "Gallmeister",
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2023/07/518iDw2Nd9L._SL1500_-196x300.jpg"
+  },
+  {
+    "auteur": "P. FROMM",
+    "titre": "Lucy in the sky",
+    "date": "avril 2015",
+    "editeur": "Gallmeister",
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Pascal BONAFOUX",
+    "titre": "The Musée du Luxembourg in Paris",
+    "date": "2006",
+    "editeur": "Skira",
+    "genre": "Beaux-arts, musique",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/61oyCu48HUL-217x300.jpg"
+  },
+  {
+    "auteur": "Pat BARKER",
+    "titre": "Le Silence des vaincues",
+    "date": "août 2020",
+    "editeur": "Les Belles-Lettres",
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2020/09/9782368125014-189x300.png"
+  },
+  {
+    "auteur": "Pat BARKER",
+    "titre": "Les Exilées de Troie",
+    "date": "janvier 2022",
+    "editeur": "Les Belles-Lettres",
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2020/09/9782368125014-189x300.png"
+  },
+  {
+    "auteur": "Pat BARKER",
+    "titre": "The Voyage Home",
+    "date": null,
+    "editeur": "Les Belles-Lettres",
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Paul PRESTON",
+    "titre": "Une guerre d’extermination. Espagne 1936-1940",
+    "date": "septembre 2016",
+    "editeur": "Belin",
+    "genre": "Histoire",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/510Z8-cio5L-204x300.jpg"
+  },
+  {
+    "auteur": "Pete FROMM",
+    "titre": "Comment tout a commencé",
+    "date": "mai 2013",
+    "editeur": "Gallmeister",
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/https://laurentbury.000webhostapp.com/wp-content/uploads/2016/12/31Sq6mtptGL-205x300.jpg"
+  },
+  {
+    "auteur": "Pete FROMM",
+    "titre": "Le Nom des étoiles",
+    "date": "avril 2016",
+    "editeur": "Gallmeister",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Pete FROMM",
+    "titre": "Lucy in the sky",
+    "date": "avril 2015",
+    "editeur": "Gallmeister",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/31Sq6mtptGL-205x300.jpg"
+  },
+  {
+    "auteur": "Peter SINGER",
+    "titre": null,
+    "date": "septembre 2018",
+    "editeur": null,
+    "genre": "Divers",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/71ANruaThoL-207x300.jpg"
+  },
+  {
+    "auteur": "Peter SINGER",
+    "titre": "L’Altruisme efficace",
+    "date": "septembre 2018",
+    "editeur": "Les Arènes",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Phil REDMOND",
+    "titre": "Retour à",
+    "date": "septembre 2017",
+    "editeur": "Piranha",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2022/07/Atroll-191x300.jpeg"
+  },
+  {
+    "auteur": "Phil REDMOND",
+    "titre": "Retour à Highbridge",
+    "date": "septembre 2017",
+    "editeur": null,
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Philippe GARNER",
+    "titre": "La Nouvelle Vague de Raymond Cauchetier",
+    "date": "novembre 2022",
+    "editeur": "Hoëbeke",
+    "genre": "Beaux-arts, musique",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2023/03/51wALRaiKXL._SX258_BO1204203200_-239x300.jpg"
+  },
+  {
+    "auteur": "R.L. STEVENSON",
+    "titre": "Croisière à l’intérieur des terres",
+    "date": "mars 2001",
+    "editeur": "Pléiade",
+    "genre": "Classiques de la littérature anglophone",
+    "info_supplementaires": "(traduction, notice et notes)",
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/31aJAysMmZL-184x300.jpg"
+  },
+  {
+    "auteur": "R.L. STEVENSON",
+    "titre": "Saint-Yves",
+    "date": "mars 2018",
+    "editeur": "Pléiade",
+    "genre": "Classiques de la littérature anglophone",
+    "info_supplementaires": "(traduction, notice et notes)",
+    "image_url": "https://web.archive.org/web/20250516202848im_/https://laurentbury.000webhostapp.com/wp-content/uploads/2016/12/51MXifT9qYL-210x300.jpg"
+  },
+  {
+    "auteur": "R.M. DOUGLAS",
+    "titre": "Les Expulsés",
+    "date": "septembre 2012",
+    "editeur": "Flammarion / Garnier-Flammarion",
+    "genre": "Histoire",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Randall L. BYTWERK",
+    "titre": "Machines à broyer les âmes, Allemagne totalitaire 1933-1989",
+    "date": "septembre 2011",
+    "editeur": "Klincksieck",
+    "genre": "Histoire",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/https://laurentbury.000webhostapp.com/wp-content/uploads/2016/12/5133SqycJmL-199x300.jpg"
+  },
+  {
+    "auteur": "Rebecca ROSS",
+    "titre": null,
+    "date": null,
+    "editeur": "Sabran",
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Rebecca ROSS",
+    "titre": "A Fire Endless",
+    "date": null,
+    "editeur": "Sabran",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Rebecca ROSS",
+    "titre": "Divines Rivalités",
+    "date": "mai 2024",
+    "editeur": null,
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2024/04/rivaaa-203x300.jpg"
+  },
+  {
+    "auteur": "Rebecca ROSS",
+    "titre": "Divines Rivalités.",
+    "date": "mai 2024",
+    "editeur": null,
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Rebecca ROSS",
+    "titre": "Divines rivalités",
+    "date": "mai 2024",
+    "editeur": "De Fallois",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2024/04/rivaaa-203x300.jpg"
+  },
+  {
+    "auteur": "Rebecca ROSS",
+    "titre": "I",
+    "date": "novembre 2024",
+    "editeur": "De Fallois",
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Rebecca ROSS",
+    "titre": "Impitoyables Serments",
+    "date": "novembre 2024",
+    "editeur": null,
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324094956im_/http://laurentburytraducteur.com/wp-content/uploads/2024/10/71105M2QsFL._SL1500_-188x300.jpg"
+  },
+  {
+    "auteur": "Rebecca ROSS",
+    "titre": "Le Refrain de la r",
+    "date": "mai 2025",
+    "editeur": "Sabran",
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2025/03/81k7cTBRxfL._AC_UF10001000_QL80_-193x300.jpg"
+  },
+  {
+    "auteur": "Rebecca ROSS",
+    "titre": "Le Refrain de la rivière",
+    "date": "mai 2025",
+    "editeur": "Sabran",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2024/05/51iA7k2TfRL-199x300.jpg"
+  },
+  {
+    "auteur": "Rebecca ROSS",
+    "titre": "Wild Reverence",
+    "date": null,
+    "editeur": null,
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2024/07/L-Oracle-de-l-oiseau-noir-194x300.jpg"
+  },
+  {
+    "auteur": "Richard CLARKE",
+    "titre": "Contre tous les ennemis",
+    "date": "juin 2004",
+    "editeur": "Albin Michel",
+    "genre": "Monde contemporain",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/41C7CQ9D09L-194x300.jpg"
+  },
+  {
+    "auteur": "Richard DAVIDSON",
+    "titre": null,
+    "date": "mai 2018",
+    "editeur": "Les Arènes",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/71ANruaThoL-207x300.jpg"
+  },
+  {
+    "auteur": "Richard DAVIDSON",
+    "titre": "Les Profils émotionnels",
+    "date": "mai 2018",
+    "editeur": null,
+    "genre": "Développement personnel",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2022/08/télécharger.jpg"
+  },
+  {
+    "auteur": "Rob HART",
+    "titre": "Paradox Hotel",
+    "date": "février 2023",
+    "editeur": "Belfond",
+    "genre": "Romans policiers, thrillers",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Robert ALEXANDER",
+    "titre": "La Fille de Raspoutine",
+    "date": "janvier 2009",
+    "editeur": "Balland",
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/51kBYTurnOL-182x300.jpg"
+  },
+  {
+    "auteur": "Robert FISK",
+    "titre": "La Grande Guerre pour la civilisation : l’occident à la conquête du Moyen-Orient (1979-2005)",
+    "date": "octobre 2005",
+    "editeur": "La Découverte",
+    "genre": "Monde contemporain",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/41T015NWCFL-191x300.jpg"
+  },
+  {
+    "auteur": "Robert HARIMAN",
+    "titre": "Le Pouvoir est une question de style",
+    "date": "mai 2009",
+    "editeur": "Klincksieck",
+    "genre": "Philosophie",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/41mRNsxsLNL-202x300.jpg"
+  },
+  {
+    "auteur": "Rohan GUNARATNA",
+    "titre": "Al-Qaida",
+    "date": "septembre 2002",
+    "editeur": "Autrement",
+    "genre": "Monde contemporain",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Rudyard KIPLING",
+    "titre": "La France en guerre",
+    "date": "janvier 2014",
+    "editeur": "Les Belles-Lettres",
+    "genre": "Histoire",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/https://laurentbury.000webhostapp.com/wp-content/uploads/2016/12/518aiLxkQ-L-194x300.jpg"
+  },
+  {
+    "auteur": "Samuel BAMFORD",
+    "titre": "La vie d’un radical anglais au temps de Peterloo",
+    "date": "juin 2019",
+    "editeur": null,
+    "genre": "Histoire",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Samuel BAMFORD",
+    "titre": "La vie d’un radical anglais au temps de Peterloo,",
+    "date": "juin 2019",
+    "editeur": "Editions sociales",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2019/06/Bamfordcouv-188x300.jpg"
+  },
+  {
+    "auteur": "Simon CRITCHLEY",
+    "titre": "Le Jour et l’heure",
+    "date": "mai 2015",
+    "editeur": "Presses Universitaires de France",
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/61sV8F0IWGL-218x300.jpg"
+  },
+  {
+    "auteur": "Simon GARFIELD",
+    "titre": "Sales Caractères. Petite histoire de la typographie",
+    "date": "mars 2012",
+    "editeur": "Seuil",
+    "genre": "Divers",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/91fFrbe1ZgL-198x300.jpg"
+  },
+  {
+    "auteur": "Sinclair McKAY",
+    "titre": "Cinquante Codes secrets qui ont changé le monde",
+    "date": "septembre 2023",
+    "editeur": "Albin Michel",
+    "genre": "Histoire",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2024/11/9782379355332_0_536_0_75-199x300.jpg"
+  },
+  {
+    "auteur": "Sonja LYUBOMIRSKY",
+    "titre": "Qu’est-ce qui nous rend (vraiment) heureux",
+    "date": "février 2014",
+    "editeur": "Les Arènes",
+    "genre": "Développement personnel",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/81YlnwMWLL-221x300.jpg"
+  },
+  {
+    "auteur": "Srecko HORVAT",
+    "titre": "La Poésie du",
+    "date": "janvier 2021",
+    "editeur": null,
+    "genre": "Philosophie",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2020/10/414rio6rZfL-200x300.jpg"
+  },
+  {
+    "auteur": "Srecko HORVAT",
+    "titre": "La Poésie du futur : manifeste pour un mouvement de libération mondial",
+    "date": "janvier 2021",
+    "editeur": "Vuibert",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2020/10/414rio6rZfL-200x300.jpg"
+  },
+  {
+    "auteur": "Srecko HORVAT",
+    "titre": "La Poésie du futur : manifeste pour un mouvement de libération mondial.",
+    "date": "janvier 2021",
+    "editeur": null,
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324094956im_/http://laurentburytraducteur.com/wp-content/uploads/2020/10/414rio6rZfL-200x300.jpg"
+  },
+  {
+    "auteur": "Stephen GREENBLATT",
+    "titre": "Tyrans ; Shakespeare raconte le XXIe siècle",
+    "date": "avril 2019",
+    "editeur": "Saint-Simon",
+    "genre": "Biographies et études littéraires",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Stephen HAWKING",
+    "titre": "La Brève Histoire de ma vie",
+    "date": "octobre 2013",
+    "editeur": "Flammarion",
+    "genre": "Divers",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Stephen HAWKING",
+    "titre": "Une brève histoire de ma vie",
+    "date": "octobre 2013",
+    "editeur": "Flammarion / Garnier-Flammarion",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Stephen OSBORNE",
+    "titre": "Vancouver, la mémoire des corps",
+    "date": "avril 2004",
+    "editeur": "Autrement",
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/41EZ0Z7XKEL-197x300.jpg"
+  },
+  {
+    "auteur": "Steve HAMILTON",
+    "titre": "Ciel de sang",
+    "date": "mars 2006",
+    "editeur": "Seuil",
+    "genre": "Romans policiers, thrillers",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/https://laurentbury.000webhostapp.com/wp-content/uploads/2016/12/61Qvm3JWHgL-183x300.jpg"
+  },
+  {
+    "auteur": "Steve HAMILTON",
+    "titre": "Un chapeau dans la neige",
+    "date": "septembre 2007",
+    "editeur": "Seuil",
+    "genre": "Romans policiers, thrillers",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/41zKiIR0yRL-212x300.jpg"
+  },
+  {
+    "auteur": "Steven C. HAYES",
+    "titre": "Un esprit libéré, le guide de la thérapie d’acceptation et d’engagement (ACT)",
+    "date": "août 2022",
+    "editeur": "Robert Laffont",
+    "genre": "Développement personnel",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2022/08/télécharger.jpg"
+  },
+  {
+    "auteur": "Steven C. HAYES",
+    "titre": "Un esprit libéré. Le guide de la thérapie d’acceptation et d’engagement (ACT).",
+    "date": "août 2022",
+    "editeur": "Robert Laffont",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Sulaiman ADDONIA",
+    "titre": "Le Silence est ma langue natale",
+    "date": "avril 2022",
+    "editeur": "Cité du Design de Saint-Etienne",
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2022/03/91LMv1N2IZL-184x300.jpg"
+  },
+  {
+    "auteur": "Sulaiman ADDONIA",
+    "titre": "Le Silence est ma langue natale.",
+    "date": "avril 2022",
+    "editeur": null,
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324094956im_/http://laurentburytraducteur.com/wp-content/uploads/2022/02/Napo-193x300.png"
+  },
+  {
+    "auteur": "Susan CAIN",
+    "titre": "Le Bonheur d’être triste, la force des mélancoliques",
+    "date": "juin 2022",
+    "editeur": "Alisio",
+    "genre": "Développement personnel",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Susan CAIN",
+    "titre": "Le Bonheur d’être triste, la force des mélancoliques dans un monde où le chagrin est interdit.",
+    "date": "juin 2022",
+    "editeur": "Alisio",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324094956im_/http://laurentburytraducteur.com/wp-content/uploads/2022/03/9782714495587ORI-205x300.jpg"
+  },
+  {
+    "auteur": "Susan CAIN",
+    "titre": "Le bonheur d’être triste. La Force des mélancoliques",
+    "date": "juin 2022",
+    "editeur": "Albin Michel",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2023/07/50CodesSecrets_def-193x300.jpg"
+  },
+  {
+    "auteur": "Susan Kaiser GREENLAND",
+    "titre": "Un cœur tranquille et sage : La méditation, un art de vivre pour les enfants",
+    "date": "septembre 2014",
+    "editeur": "Les Arènes",
+    "genre": "Développement personnel",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/91fFrbe1ZgL-198x300.jpg"
+  },
+  {
+    "auteur": "Susan SELLERS",
+    "titre": "Vanessa, mon amour, ma sœur",
+    "date": "mars 2011",
+    "editeur": "Autrement",
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/41D69R17FHL-196x300.jpg"
+  },
+  {
+    "auteur": "Suzanne BERGER",
+    "titre": "Made in Monde, les nouvelles frontières de l’économie mondiale",
+    "date": "février 2006",
+    "editeur": "Seuil",
+    "genre": "Economie",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/https://laurentbury.000webhostapp.com/wp-content/uploads/2016/12/41zKiIR0yRL-212x300.jpg"
+  },
+  {
+    "auteur": "Tarek OSMAN",
+    "titre": "Révolutions égyptiennes, de Nasser à la chute de Moubarak",
+    "date": "septembre 2011",
+    "editeur": "Les Belles-Lettres",
+    "genre": "Monde contemporain",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Thomas FRIEDMAN",
+    "titre": "La Terre est plate. Une brève histoire du XXIe siècle",
+    "date": "octobre 2006",
+    "editeur": "Saint-Simon",
+    "genre": "Economie",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Thomas HARDY",
+    "titre": "Loin de la foule déchaînée",
+    "date": "janvier 2021",
+    "editeur": "RBA France",
+    "genre": "Classiques de la littérature anglophone",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2022/04/huaz31k7BrqFFGO-O5WoVeuwk-M-188x300.png"
+  },
+  {
+    "auteur": "Tim CLISSOLD",
+    "titre": "Mr China ; comment perdre 450 millions de dollars après avoir fait fortune à Wall Street",
+    "date": "mai 2006",
+    "editeur": "Saint-Simon",
+    "genre": "Economie",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/51rODCb8VL-184x300.jpg"
+  },
+  {
+    "auteur": "Tim HARFORD",
+    "titre": "L’Economie est un jeu d’enfant",
+    "date": "février 2016",
+    "editeur": "Presses Universitaires de France",
+    "genre": "Economie",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Tim HARFORD",
+    "titre": "L’économie mondiale en 50 inventions",
+    "date": "mars 2018",
+    "editeur": "Presses Universitaires de France",
+    "genre": "Economie",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/71v3u52axpL-207x300.jpg"
+  },
+  {
+    "auteur": "Tim PEAKE",
+    "titre": "L’Espace, une aventure humaine",
+    "date": "janvier 2025",
+    "editeur": "Albin Michel",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324094956im_/http://laurentburytraducteur.com/wp-content/uploads/2024/12/medici-heist-5568712-212x300.jpg"
+  },
+  {
+    "auteur": "Tim PEAKE",
+    "titre": "L’Espace, une aventure humaine,",
+    "date": "janvier 2025",
+    "editeur": "Alisio",
+    "genre": "Histoire",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2024/12/9782379355387_0_536_0_75-200x300.jpg"
+  },
+  {
+    "auteur": "Timothy MORTON",
+    "titre": "Hyperobjets, philosophie et écologie après la fin du monde",
+    "date": "mars 2018",
+    "editeur": null,
+    "genre": "Philosophie",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Timothy MORTON",
+    "titre": "Hyperobjets, philosophie et écologie et après la fin du monde",
+    "date": "mars 2018",
+    "editeur": "Cité du Design de Saint-Etienne",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Todd ROBINSON",
+    "titre": "Cassandra",
+    "date": "août 2015",
+    "editeur": "Gallmeister",
+    "genre": "Romans policiers, thrillers",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2023/07/41wRc6GUOFL-200x300.jpg"
+  },
+  {
+    "auteur": "Todd ROBINSON",
+    "titre": "Une affaire d’hommes",
+    "date": "mars 2017",
+    "editeur": "Gallmeister",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Todd ROBINSON",
+    "titre": "Une affaires d’hommes",
+    "date": "mars 2017",
+    "editeur": "Gallmeister",
+    "genre": "Romans policiers, thrillers",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Tom CLAVIN",
+    "titre": "La Véritable Histoire des Dalton, derniers hors-la-loi du Far West",
+    "date": "février 2025",
+    "editeur": "Albin Michel",
+    "genre": "Histoire",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324094956im_/http://laurentburytraducteur.com/wp-content/uploads/2024/11/9782379355332_0_536_0_75-199x300.jpg"
+  },
+  {
+    "auteur": "Tom FLETCHER",
+    "titre": "La Vie sur notre planète",
+    "date": "octobre 2023",
+    "editeur": "Lattès",
+    "genre": "Histoire",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2023/07/91ZSHDkSSnL._SL1500_-300x300.jpg"
+  },
+  {
+    "auteur": "Tom FLETCHER",
+    "titre": "La Vie sur notre planète.",
+    "date": "octobre 2023",
+    "editeur": "Leduc",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324094956im_/http://laurentburytraducteur.com/wp-content/uploads/2023/07/61YaNkY00eL-187x300.jpg"
+  },
+  {
+    "auteur": "Tomasz JEDROWSKI",
+    "titre": "Les N",
+    "date": "mars 2023",
+    "editeur": "Cité du Design de Saint-Etienne",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Tomasz JEDROWSKI",
+    "titre": "Les Nageurs de la nuit",
+    "date": "mars 2023",
+    "editeur": null,
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324094956im_/http://laurentburytraducteur.com/wp-content/uploads/2022/11/Art.png"
+  },
+  {
+    "auteur": "Trevor PAGLEN et A.C. THOMPSON",
+    "titre": "Kidnappés par la CIA : les charters de la torture",
+    "date": "mars 2007",
+    "editeur": "Saint-Simon",
+    "genre": "Monde contemporain",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/412nSyXhJL-195x300.jpg"
+  },
+  {
+    "auteur": "Val PLUMWOOD",
+    "titre": "Réanimer la Nature",
+    "date": "août 2020",
+    "editeur": "Presses Universitaires de France",
+    "genre": "Philosophie",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Val PLUMWOOD",
+    "titre": "Réanimer la Nature.",
+    "date": "août 2020",
+    "editeur": "PUF",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324094956im_/http://laurentburytraducteur.com/wp-content/uploads/2020/09/9782368125014-189x300.png"
+  },
+  {
+    "auteur": "Valerie MARTIN",
+    "titre": "Pauvre. François, l’insoumis d’Assise",
+    "date": "mars 2003",
+    "editeur": "Autrement",
+    "genre": "Romans contemporains",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/41A3VH8TMJL-204x300.jpg"
+  },
+  {
+    "auteur": "Virginia WOOLF",
+    "titre": "Une pièce à soi",
+    "date": "février 2025",
+    "editeur": "Pléiade",
+    "genre": "Classiques de la littérature anglophone",
+    "info_supplementaires": "(traduction, notice et notes)",
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2024/11/Woolf-182x300.png"
+  },
+  {
+    "auteur": "Wayne KOESTENBAUM",
+    "titre": null,
+    "date": "janvier 2019",
+    "editeur": null,
+    "genre": "Beaux-arts, musique",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2023/03/51wALRaiKXL._SX258_BO1204203200_-239x300.jpg"
+  },
+  {
+    "auteur": "Wayne KOESTENBAUM",
+    "titre": "Anatomie de la folle lyrique",
+    "date": "janvier 2019",
+    "editeur": "La Rue Musicale",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/51R7eABxyFL-200x300.jpg"
+  },
+  {
+    "auteur": "Will DEAN",
+    "titre": "La Forêt de la Méduse",
+    "date": "avril 2022",
+    "editeur": "Belfond",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324094956im_/http://laurentburytraducteur.com/wp-content/uploads/2022/03/91LMv1N2IZL-184x300.jpg"
+  },
+  {
+    "auteur": "Will DEAN",
+    "titre": "La Forêt de la Méduse,",
+    "date": "avril 2022",
+    "editeur": null,
+    "genre": "Romans policiers, thrillers",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2022/03/41cz0Kcz5kL-205x300.jpg"
+  },
+  {
+    "auteur": "Will DEAN",
+    "titre": "La Première Soeur",
+    "date": "février 2024",
+    "editeur": "Belfond",
+    "genre": "Romans policiers, thrillers",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250516202848im_/http://laurentburytraducteur.com/wp-content/uploads/2022/11/Art.png"
+  },
+  {
+    "auteur": "Will DEAN",
+    "titre": "La Première Soeur.",
+    "date": "février 2024",
+    "editeur": null,
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324094956im_/http://laurentburytraducteur.com/wp-content/uploads/2023/07/91ZSHDkSSnL._SL1500_-300x300.jpg"
+  },
+  {
+    "auteur": "Will DEAN",
+    "titre": "Les Disparues de Midsommar",
+    "date": "mai 2022",
+    "editeur": "Belfond",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2024/01/La-Premiere-Soeur-205x300.jpg"
+  },
+  {
+    "auteur": "Will DEAN",
+    "titre": "Les Disparues de Midsommar,",
+    "date": "mai 2022",
+    "editeur": null,
+    "genre": "Romans policiers, thrillers",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Will DEAN",
+    "titre": "Tout ce qui est à toi brûlera",
+    "date": "mars 2022",
+    "editeur": "Belfond",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2022/03/41cz0Kcz5kL-205x300.jpg"
+  },
+  {
+    "auteur": "Will DEAN",
+    "titre": "Tout ce qui est à toi brûlera.",
+    "date": "mars 2022",
+    "editeur": null,
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Will R. DEAN",
+    "titre": "Tout ce qui est à toi brûlera,",
+    "date": "mars 2022",
+    "editeur": null,
+    "genre": "Romans policiers, thrillers",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Zrinka STAHULJAK",
+    "titre": "L’",
+    "date": "mai 2018",
+    "editeur": "Presses Universitaires de Rennes",
+    "genre": null,
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/5125fXZuvHL-207x300.jpg"
+  },
+  {
+    "auteur": "Zrinka STAHULJAK",
+    "titre": "L’Archéologie pornographique: médecine, Moyen Age et histoire de France",
+    "date": "mai 2018",
+    "editeur": null,
+    "genre": "Histoire",
+    "info_supplementaires": null,
+    "image_url": null
+  },
+  {
+    "auteur": "Zygmunt BAUMAN",
+    "titre": "Le Présent liquide. Peurs sociales et obsession sécuritaire",
+    "date": "mars 2007",
+    "editeur": "Seuil",
+    "genre": "Sociologie",
+    "info_supplementaires": null,
+    "image_url": "https://web.archive.org/web/20250324100202im_/http://laurentburytraducteur.com/wp-content/uploads/2016/12/61HmpYFjCL-210x300.jpg"
+  }
+]
