@@ -55,3 +55,12 @@
   }
 }
 
+/* Masquer le header sur la page admin */
+.admin-layout ~ header {
+  display: none;
+}
+
+body:has(.admin-layout) header {
+  display: none;
+}
+

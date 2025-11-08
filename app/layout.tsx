@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { Roboto } from 'next/font/google'
 import './globals.css'
-import Header from '@/components/Header'
+import ConditionalHeader from '@/components/ConditionalHeader'
 
 const roboto = Roboto({ 
   weight: ['300', '400', '500', '700'],
@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="fr" className={roboto.variable}>
       <body className={roboto.className}>
-        <Header />
+        <ConditionalHeader />
         <main className="min-h-screen">
           {children}
         </main>
