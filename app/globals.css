@@ -23,11 +23,12 @@
     z-index: -1;
     background: linear-gradient(
       135deg,
-      #f0f4f8 0%,
-      #ffffff 25%,
-      #f0f4f8 50%,
-      #e8f0f7 75%,
-      #f0f4f8 100%
+      #fff8e1 0%,
+      #ffffff 20%,
+      #ffecb3 40%,
+      #ffffff 60%,
+      #ffe082 80%,
+      #fff8e1 100%
     );
     background-size: 400% 400%;
     animation: gradientShift 20s ease infinite;
@@ -63,9 +64,9 @@
   }
 
   .card {
-    @apply bg-white/80 backdrop-blur-sm rounded-lg shadow-md hover:shadow-xl transition-all duration-300;
-    @apply border border-primary-100/50;
-    @apply hover:bg-white/90;
+    @apply bg-white/85 backdrop-blur-sm rounded-lg shadow-md hover:shadow-xl transition-all duration-300;
+    @apply border border-accent-100/40;
+    @apply hover:bg-white/95 hover:border-accent-200/50;
   }
 
   .btn-primary {
@@ -94,11 +95,11 @@
   .gradient-bg {
     background: linear-gradient(
       135deg,
-      rgba(240, 244, 248, 0.8) 0%,
+      rgba(255, 248, 225, 0.8) 0%,
       rgba(255, 255, 255, 0.9) 25%,
-      rgba(232, 240, 247, 0.8) 50%,
+      rgba(255, 236, 179, 0.8) 50%,
       rgba(255, 255, 255, 0.9) 75%,
-      rgba(240, 244, 248, 0.8) 100%
+      rgba(255, 224, 130, 0.8) 100%
     );
     background-size: 400% 400%;
     animation: gradientShift 15s ease infinite;
