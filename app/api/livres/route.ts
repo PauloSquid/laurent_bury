@@ -12,7 +12,21 @@ export async function GET(request: NextRequest) {
 
     // Si Supabase n'est pas configuré, utiliser le fichier JSON comme fallback
     if (!isSupabaseConfigured || !supabase) {
-      console.warn('Supabase non configuré, utilisation du fichier livres.json comme fallback')
+      const envCheck = {
+        url: !!process.env.NEXT_PUBLIC_SUPABASE_URL,
+        key: !!process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY,
+        env: process.env.NODE_ENV
+      }
+      console.warn('Supabase non configuré, utilisation du fichier livres.json comme fallback', envCheck)
+      
+      // En production, logger une erreur plus explicite
+      if (process.env.NODE_ENV === 'production') {
+        console.error('⚠️ PRODUCTION: Variables Supabase manquantes!')
+        console.error('URL configurée:', envCheck.url)
+        console.error('Key configurée:', envCheck.key)
+        console.error('Vérifiez les variables d\'environnement dans Vercel: NEXT_PUBLIC_SUPABASE_URL et NEXT_PUBLIC_SUPABASE_ANON_KEY')
+      }
+      
       try {
         const fileContents = await readFile(LIVRES_FILE, 'utf8')
         const livres = JSON.parse(fileContents)
