@@ -2,12 +2,11 @@
 
 import { useState, useEffect, useMemo } from 'react'
 
-const ADMIN_PASSWORD = process.env.NEXT_PUBLIC_ADMIN_PASSWORD || ''
-
 export default function AdminPage() {
   const [isAuthenticated, setIsAuthenticated] = useState(false)
   const [password, setPassword] = useState('')
   const [error, setError] = useState('')
+  const [loading, setLoading] = useState(false)
 
   useEffect(() => {
     // Vérifier si l'utilisateur est déjà authentifié
@@ -17,16 +16,34 @@ export default function AdminPage() {
     }
   }, [])
 
-  const handleLogin = (e: React.FormEvent) => {
+  const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault()
+    setLoading(true)
+    setError('')
     
-    if (password === ADMIN_PASSWORD) {
-      sessionStorage.setItem('admin_authenticated', 'true')
-      setIsAuthenticated(true)
-      setError('')
-    } else {
-      setError('Mot de passe incorrect')
+    try {
+      const response = await fetch('/api/admin/auth', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ password })
+      })
+      
+      const data = await response.json()
+      
+      if (data.success) {
+        sessionStorage.setItem('admin_authenticated', 'true')
+        setIsAuthenticated(true)
+        setError('')
+      } else {
+        setError(data.error || 'Mot de passe incorrect')
+        setPassword('')
+      }
+    } catch (error) {
+      console.error('Erreur lors de la connexion:', error)
+      setError('Erreur lors de la connexion. Veuillez réessayer.')
       setPassword('')
+    } finally {
+      setLoading(false)
     }
   }
 
@@ -66,8 +83,9 @@ export default function AdminPage() {
             <button
               type="submit"
               className="w-full btn-primary"
+              disabled={loading}
             >
-              Se connecter
+              {loading ? 'Connexion...' : 'Se connecter'}
             </button>
           </form>
         </div>
