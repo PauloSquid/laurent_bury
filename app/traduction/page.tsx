@@ -1,8 +1,7 @@
 'use client'
 
 import { useSearchParams } from 'next/navigation'
-import { useState, Suspense, useMemo } from 'react'
-import livresData from '@/livres.json'
+import { useState, Suspense, useMemo, useEffect } from 'react'
 
 interface Livre {
   auteur: string | null
@@ -19,6 +18,32 @@ function TraductionContent() {
   const triInitial = searchParams.get('tri') || 'genre'
   const [tri, setTri] = useState<'genre' | 'editeur' | 'date'>(triInitial as 'genre' | 'editeur' | 'date')
   const [recherche, setRecherche] = useState('')
+  const [livresData, setLivresData] = useState<Livre[]>([])
+  const [loading, setLoading] = useState(true)
+  const [error, setError] = useState<string | null>(null)
+
+  useEffect(() => {
+    const loadLivres = async () => {
+      try {
+        const response = await fetch('/api/livres')
+        if (response.ok) {
+          const data = await response.json()
+          setLivresData(data || [])
+          setError(null)
+        } else {
+          const errorData = await response.json().catch(() => ({ error: 'Erreur inconnue' }))
+          setError(errorData.error || 'Erreur lors du chargement des livres')
+          console.error('Erreur API:', errorData)
+        }
+      } catch (error) {
+        console.error('Erreur lors du chargement des livres:', error)
+        setError('Impossible de charger les livres. Vérifiez votre connexion et la configuration Supabase.')
+      } finally {
+        setLoading(false)
+      }
+    }
+    loadLivres()
+  }, [])
 
   // Fonction pour extraire l'année d'une date
   const extraireAnnee = (date: string | null): number | null => {
@@ -49,7 +74,7 @@ function TraductionContent() {
     return (livresData as Livre[])
       .filter(livre => livre.titre && livre.titre.trim() !== '')
       .filter(livre => correspondRecherche(livre, recherche))
-  }, [recherche])
+  }, [livresData, recherche])
 
   // Grouper par genre
   const livresParGenre = useMemo(() => {
@@ -117,6 +142,33 @@ function TraductionContent() {
   }, [livresValides])
 
   const groupesAffiches = tri === 'genre' ? livresParGenre : tri === 'editeur' ? livresParEditeur : livresParDate
+
+  if (loading) {
+    return (
+      <div className="section-container py-16 md:py-24">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center text-primary-600">Chargement...</div>
+        </div>
+      </div>
+    )
+  }
+
+  if (error) {
+    return (
+      <div className="section-container py-16 md:py-24">
+        <div className="max-w-6xl mx-auto">
+          <h1 className="page-title">Traductions</h1>
+          <div className="card p-8 bg-red-50 border border-red-200">
+            <p className="text-red-800 font-semibold mb-2">Erreur de chargement</p>
+            <p className="text-red-600">{error}</p>
+            <p className="text-sm text-red-500 mt-4">
+              Vérifiez que Supabase est configuré et que les données ont été migrées.
+            </p>
+          </div>
+        </div>
+      </div>
+    )
+  }
 
   return (
     <div className="section-container py-16 md:py-24">

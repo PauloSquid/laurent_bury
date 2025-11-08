@@ -1,7 +1,6 @@
 'use client'
 
-import { useMemo } from 'react'
-import livresData from '@/livres.json'
+import { useMemo, useState, useEffect } from 'react'
 
 interface Livre {
   auteur: string | null
@@ -18,6 +17,26 @@ interface LivreAvecAnnee extends Livre {
 }
 
 export default function DernieresParutionsPage() {
+  const [livresData, setLivresData] = useState<Livre[]>([])
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    const loadLivres = async () => {
+      try {
+        const response = await fetch('/api/livres')
+        if (response.ok) {
+          const data = await response.json()
+          setLivresData(data)
+        }
+      } catch (error) {
+        console.error('Erreur lors du chargement des livres:', error)
+      } finally {
+        setLoading(false)
+      }
+    }
+    loadLivres()
+  }, [])
+
   // Fonction pour extraire l'année d'une date
   const extraireAnnee = (date: string | null): number | null => {
     if (!date) return null
@@ -36,7 +55,7 @@ export default function DernieresParutionsPage() {
 
   // Filtrer et trier les livres des 5 dernières années
   const livresRecents = useMemo(() => {
-    const livresValides = (livresData as Livre[])
+    const livresValides = livresData
       .filter(livre => livre.titre && livre.titre.trim() !== '')
       .map(livre => ({
         ...livre,
@@ -66,7 +85,17 @@ export default function DernieresParutionsPage() {
         annee,
         livres: groupes[annee]
       }))
-  }, [anneeLimite])
+  }, [livresData, anneeLimite])
+
+  if (loading) {
+    return (
+      <div className="section-container py-16 md:py-24">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center text-primary-600">Chargement...</div>
+        </div>
+      </div>
+    )
+  }
 
   return (
     <div className="section-container py-16 md:py-24">

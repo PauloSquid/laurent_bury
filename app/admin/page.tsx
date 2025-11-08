@@ -112,11 +112,22 @@ export default function AdminPage() {
   )
 }
 
+interface LivreWithId {
+  id: string
+  auteur: string | null
+  titre: string | null
+  date: string | null
+  editeur: string | null
+  genre: string | null
+  info_supplementaires: string | null
+  image_url: string | null
+}
+
 function AdminContent() {
-  const [livres, setLivres] = useState<any[]>([])
+  const [livres, setLivres] = useState<LivreWithId[]>([])
   const [loading, setLoading] = useState(true)
   const [showAddForm, setShowAddForm] = useState(false)
-  const [editingLivre, setEditingLivre] = useState<any | null>(null)
+  const [editingLivre, setEditingLivre] = useState<LivreWithId | null>(null)
   const [message, setMessage] = useState<{ type: 'success' | 'error', text: string } | null>(null)
   const [sortColumn, setSortColumn] = useState<string | null>(null)
   const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('asc')
@@ -127,7 +138,7 @@ function AdminContent() {
 
   const loadLivres = async () => {
     try {
-      const response = await fetch('/api/livres')
+      const response = await fetch('/api/livres?withIds=true')
       if (response.ok) {
         const data = await response.json()
         setLivres(data)
@@ -139,20 +150,17 @@ function AdminContent() {
     }
   }
 
-  const handleDelete = async (index: number) => {
+  const handleDelete = async (id: string) => {
     if (!confirm('Êtes-vous sûr de vouloir supprimer ce livre ?')) {
       return
     }
 
-    const newLivres = livres.filter((_, i) => i !== index)
     try {
-      const response = await fetch('/api/livres', {
-        method: 'PUT',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(newLivres)
+      const response = await fetch(`/api/livres/${id}`, {
+        method: 'DELETE'
       })
       if (response.ok) {
-        setLivres(newLivres)
+        await loadLivres()
         setMessage({ type: 'success', text: 'Livre supprimé avec succès' })
         setTimeout(() => setMessage(null), 3000)
       } else {
@@ -178,18 +186,16 @@ function AdminContent() {
   }
 
   const sortedLivres = useMemo(() => {
-    if (!sortColumn) return livres.map((livre, index) => ({ ...livre, originalIndex: index }))
+    if (!sortColumn) return livres
 
-    return [...livres]
-      .map((livre, index) => ({ ...livre, originalIndex: index }))
-      .sort((a, b) => {
-        const aValue = (a[sortColumn] || '').toString().toLowerCase()
-        const bValue = (b[sortColumn] || '').toString().toLowerCase()
-        
-        if (aValue < bValue) return sortOrder === 'asc' ? -1 : 1
-        if (aValue > bValue) return sortOrder === 'asc' ? 1 : -1
-        return 0
-      })
+    return [...livres].sort((a, b) => {
+      const aValue = (a[sortColumn as keyof LivreWithId] || '').toString().toLowerCase()
+      const bValue = (b[sortColumn as keyof LivreWithId] || '').toString().toLowerCase()
+      
+      if (aValue < bValue) return sortOrder === 'asc' ? -1 : 1
+      if (aValue > bValue) return sortOrder === 'asc' ? 1 : -1
+      return 0
+    })
   }, [livres, sortColumn, sortOrder])
 
   const SortIcon = ({ column }: { column: string }) => {
@@ -245,16 +251,24 @@ function AdminContent() {
         <LivreForm
           livre={editingLivre}
           onSave={async (livre) => {
-            const newLivres = editingLivre
-              ? livres.map((l, i) => (i === editingLivre.index ? livre : l))
-              : [...livres, livre]
-            
             try {
-              const response = await fetch('/api/livres', {
-                method: 'PUT',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(newLivres)
-              })
+              let response
+              if (editingLivre) {
+                // Mise à jour d'un livre existant
+                response = await fetch(`/api/livres/${editingLivre.id}`, {
+                  method: 'PUT',
+                  headers: { 'Content-Type': 'application/json' },
+                  body: JSON.stringify(livre)
+                })
+              } else {
+                // Création d'un nouveau livre
+                response = await fetch('/api/livres', {
+                  method: 'POST',
+                  headers: { 'Content-Type': 'application/json' },
+                  body: JSON.stringify(livre)
+                })
+              }
+              
               if (response.ok) {
                 await loadLivres()
                 setMessage({ 
@@ -265,7 +279,8 @@ function AdminContent() {
                 setShowAddForm(false)
                 setEditingLivre(null)
               } else {
-                setMessage({ type: 'error', text: 'Erreur lors de la sauvegarde' })
+                const errorData = await response.json()
+                setMessage({ type: 'error', text: errorData.error || 'Erreur lors de la sauvegarde' })
                 setTimeout(() => setMessage(null), 3000)
               }
             } catch (error) {
@@ -343,12 +358,8 @@ function AdminContent() {
                 </tr>
               </thead>
               <tbody>
-                {sortedLivres.map((livre, sortedIndex) => {
-                  const originalIndex = livre.originalIndex
-                  // Nettoyer l'objet pour ne pas inclure originalIndex dans les données
-                  const { originalIndex: _, ...livreData } = livre
-                  return (
-                  <tr key={`${livre.titre}-${sortedIndex}`} className="border-b border-primary-100 hover:bg-primary-50 transition-colors">
+                {sortedLivres.map((livre) => (
+                  <tr key={livre.id} className="border-b border-primary-100 hover:bg-primary-50 transition-colors">
                     <td className="py-3 px-4">
                       {livre.image_url ? (
                         <div className="w-12 h-16 overflow-hidden rounded bg-primary-100 flex-shrink-0">
@@ -378,7 +389,7 @@ function AdminContent() {
                       <div className="flex justify-end gap-2">
                         <button
                           onClick={() => {
-                            setEditingLivre({ ...livreData, index: originalIndex })
+                            setEditingLivre(livre)
                             setShowAddForm(true)
                             setTimeout(() => {
                               document.getElementById('livre-form')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
@@ -389,7 +400,7 @@ function AdminContent() {
                           Modifier
                         </button>
                         <button
-                          onClick={() => handleDelete(originalIndex)}
+                          onClick={() => handleDelete(livre.id)}
                           className="px-3 py-1.5 text-sm bg-red-100 text-red-700 rounded-lg hover:bg-red-200 transition-colors font-medium"
                         >
                           Supprimer
@@ -397,8 +408,7 @@ function AdminContent() {
                       </div>
                     </td>
                   </tr>
-                  )
-                })}
+                ))}
               </tbody>
             </table>
           </div>
@@ -408,7 +418,7 @@ function AdminContent() {
   )
 }
 
-function LivreForm({ livre, onSave, onCancel }: { livre: any | null, onSave: (livre: any) => void, onCancel: () => void }) {
+function LivreForm({ livre, onSave, onCancel }: { livre: LivreWithId | null, onSave: (livre: Omit<LivreWithId, 'id'>) => void, onCancel: () => void }) {
   const [formData, setFormData] = useState({
     auteur: livre?.auteur || '',
     titre: livre?.titre || '',

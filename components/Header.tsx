@@ -16,7 +16,7 @@ export default function Header() {
   }
 
   return (
-    <header className="bg-white/95 backdrop-blur-sm shadow-lg sticky top-0 z-50 border-b border-primary-100">
+    <header className="bg-white/80 backdrop-blur-md shadow-lg sticky top-0 z-50 border-b border-primary-100/50">
       <nav className="section-container py-4">
         <div className="flex items-center justify-between">
           <Link 
