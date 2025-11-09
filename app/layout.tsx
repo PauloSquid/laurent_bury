@@ -10,9 +10,77 @@ const roboto = Roboto({
   display: 'swap',
 })
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://laurentburytraducteur.com'
+
 export const metadata: Metadata = {
-  title: 'Traducteur - Site Vitrine',
-  description: 'Site vitrine d\'un traducteur professionnel',
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: 'Laurent Bury - Traducteur professionnel',
+    template: '%s | Laurent Bury - Traducteur'
+  },
+  description: 'Laurent Bury, traducteur professionnel depuis plus de trente ans. Spécialisé dans la traduction de classiques, romans, histoire et philosophie. Découvrez mes traductions par genre et par éditeur.',
+  keywords: [
+    'traducteur',
+    'traduction',
+    'traducteur professionnel',
+    'traduction littéraire',
+    'traduction français',
+    'Laurent Bury',
+    'traduction classiques',
+    'traduction romans',
+    'traduction philosophie',
+    'traduction histoire'
+  ],
+  authors: [{ name: 'Laurent Bury' }],
+  creator: 'Laurent Bury',
+  publisher: 'Laurent Bury',
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'fr_FR',
+    url: siteUrl,
+    siteName: 'Laurent Bury - Traducteur',
+    title: 'Laurent Bury - Traducteur professionnel',
+    description: 'Traducteur professionnel depuis plus de trente ans. Spécialisé dans la traduction de classiques, romans, histoire et philosophie.',
+    images: [
+      {
+        url: `${siteUrl}/og-image.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Laurent Bury - Traducteur professionnel',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Laurent Bury - Traducteur professionnel',
+    description: 'Traducteur professionnel depuis plus de trente ans. Spécialisé dans la traduction de classiques, romans, histoire et philosophie.',
+    images: [`${siteUrl}/og-image.jpg`],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  verification: {
+    // Ajoutez vos codes de vérification ici si nécessaire
+    // google: 'votre-code-google',
+    // yandex: 'votre-code-yandex',
+    // bing: 'votre-code-bing',
+  },
+  alternates: {
+    canonical: siteUrl,
+  },
 }
 
 export default function RootLayout({
