@@ -6,6 +6,7 @@ import { useState } from "react";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isTraductionMenuOpen, setIsTraductionMenuOpen] = useState(false);
   const pathname = usePathname();
 
   const isActive = (path: string) => {
@@ -35,9 +36,13 @@ export default function Header() {
 
           {/* Menu Desktop */}
           <div className="hidden md:flex items-center space-x-8">
-            <div className="relative group">
-              <Link
-                href="/traduction"
+            <div 
+              className="relative group"
+              onMouseEnter={() => setIsTraductionMenuOpen(true)}
+              onMouseLeave={() => setIsTraductionMenuOpen(false)}
+            >
+              <button
+                onClick={() => setIsTraductionMenuOpen(!isTraductionMenuOpen)}
                 className="text-primary-700 font-medium transition-colors duration-200 relative py-2 group/link"
               >
                 Traductions
@@ -48,24 +53,36 @@ export default function Header() {
                       : "w-0 h-0.5 group-hover/link:w-full group-hover/link:h-1"
                   }`}
                 ></span>
-              </Link>
-              <div className="absolute left-0 mt-2 w-56 bg-white rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 border border-primary-100">
+              </button>
+              <div className={`absolute left-0 mt-2 w-56 bg-white rounded-lg shadow-xl transition-all duration-300 border border-primary-100 ${
+                isTraductionMenuOpen ? "opacity-100 visible" : "opacity-0 invisible"
+              }`}>
                 <div className="py-2">
                   <Link
                     href="/traduction?tri=genre"
                     className="block px-4 py-2.5 text-sm text-primary-700 hover:bg-primary-50 hover:text-primary-900 transition-colors duration-200"
+                    onClick={() => setIsTraductionMenuOpen(false)}
                   >
                     Par genre
                   </Link>
                   <Link
+                    href="/traduction?tri=auteur"
+                    className="block px-4 py-2.5 text-sm text-primary-700 hover:bg-primary-50 hover:text-primary-900 transition-colors duration-200"
+                    onClick={() => setIsTraductionMenuOpen(false)}
+                  >
+                    Par auteur
+                  </Link>
+                  <Link
                     href="/traduction?tri=editeur"
                     className="block px-4 py-2.5 text-sm text-primary-700 hover:bg-primary-50 hover:text-primary-900 transition-colors duration-200"
+                    onClick={() => setIsTraductionMenuOpen(false)}
                   >
                     Par éditeur
                   </Link>
                   <Link
                     href="/traduction?tri=date"
                     className="block px-4 py-2.5 text-sm text-primary-700 hover:bg-primary-50 hover:text-primary-900 transition-colors duration-200"
+                    onClick={() => setIsTraductionMenuOpen(false)}
                   >
                     Par date
                   </Link>
@@ -169,6 +186,13 @@ export default function Header() {
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Par genre
+                </Link>
+                <Link
+                  href="/traduction?tri=auteur"
+                  className="block px-4 py-2 text-sm text-primary-600 hover:bg-primary-50 rounded-lg transition-colors duration-200"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  Par auteur
                 </Link>
                 <Link
                   href="/traduction?tri=editeur"
