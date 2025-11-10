@@ -170,9 +170,34 @@ function TraductionContent() {
       }
       groupes[genre].push(livre)
     })
-    // Trier les genres par ordre alphabétique
+    // Trier les genres par ordre alphabétique et les livres par date (plus récent en premier)
     return Object.keys(groupes).sort().reduce((acc, key) => {
-      acc[key] = groupes[key]
+      const livres = groupes[key]
+      livres.sort((a, b) => {
+        const anneeA = extraireAnnee(a.date)
+        const anneeB = extraireAnnee(b.date)
+        if (anneeA !== anneeB) {
+          if (anneeA === null) return 1
+          if (anneeB === null) return -1
+          return anneeB - anneeA
+        }
+        const moisA = extraireMois(a.date)
+        const moisB = extraireMois(b.date)
+        if (moisA !== moisB) {
+          if (moisA === null) return 1
+          if (moisB === null) return -1
+          return moisB - moisA
+        }
+        const prioriteA = a.priorite ?? Number.POSITIVE_INFINITY
+        const prioriteB = b.priorite ?? Number.POSITIVE_INFINITY
+        if (prioriteA !== prioriteB) {
+          return prioriteA - prioriteB
+        }
+        const titreA = (a.titre || '').toLowerCase()
+        const titreB = (b.titre || '').toLowerCase()
+        return titreA.localeCompare(titreB, 'fr', { sensitivity: 'base' })
+      })
+      acc[key] = livres
       return acc
     }, {} as { [key: string]: Livre[] })
   }, [livresValides])
@@ -187,9 +212,34 @@ function TraductionContent() {
       }
       groupes[editeur].push(livre)
     })
-    // Trier les éditeurs par ordre alphabétique
+    // Trier les éditeurs par ordre alphabétique et les livres par date (plus récent en premier)
     return Object.keys(groupes).sort().reduce((acc, key) => {
-      acc[key] = groupes[key]
+      const livres = groupes[key]
+      livres.sort((a, b) => {
+        const anneeA = extraireAnnee(a.date)
+        const anneeB = extraireAnnee(b.date)
+        if (anneeA !== anneeB) {
+          if (anneeA === null) return 1
+          if (anneeB === null) return -1
+          return anneeB - anneeA
+        }
+        const moisA = extraireMois(a.date)
+        const moisB = extraireMois(b.date)
+        if (moisA !== moisB) {
+          if (moisA === null) return 1
+          if (moisB === null) return -1
+          return moisB - moisA
+        }
+        const prioriteA = a.priorite ?? Number.POSITIVE_INFINITY
+        const prioriteB = b.priorite ?? Number.POSITIVE_INFINITY
+        if (prioriteA !== prioriteB) {
+          return prioriteA - prioriteB
+        }
+        const titreA = (a.titre || '').toLowerCase()
+        const titreB = (b.titre || '').toLowerCase()
+        return titreA.localeCompare(titreB, 'fr', { sensitivity: 'base' })
+      })
+      acc[key] = livres
       return acc
     }, {} as { [key: string]: Livre[] })
   }, [livresValides])
