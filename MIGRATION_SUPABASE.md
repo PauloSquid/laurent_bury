@@ -81,6 +81,7 @@ La table `livres` contient les champs suivants :
 - `genre` (TEXT, nullable)
 - `info_supplementaires` (TEXT, nullable)
 - `image_url` (TEXT, nullable)
+- `priorite` (INTEGER, nullable) — utilisé pour ordonner les ouvrages (1 = plus haute priorité)
 - `created_at` (TIMESTAMP) - Généré automatiquement
 - `updated_at` (TIMESTAMP) - Mis à jour automatiquement
 
@@ -110,6 +111,7 @@ Par défaut, les politiques RLS permettent :
 - `app/traduction/page.tsx` - Utilise maintenant l'API au lieu d'importer directement `livres.json`
 - `app/dernieres-parutions/page.tsx` - Utilise maintenant l'API au lieu d'importer directement `livres.json`
 - `app/admin/page.tsx` - Utilise maintenant les IDs au lieu des indices pour les opérations CRUD
+- Les listes côté site appliquent un tri par `priorite` (valeurs faibles en premier) puis par ordre alphabétique lorsque la priorité est absente
 
 ## Dépannage
 

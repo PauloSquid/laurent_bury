@@ -121,6 +121,7 @@ interface LivreWithId {
   genre: string | null
   info_supplementaires: string | null
   image_url: string | null
+  priorite: number | null
 }
 
 function AdminContent() {
@@ -136,12 +137,37 @@ function AdminContent() {
     loadLivres()
   }, [])
 
+  const normalizePriority = (value: unknown): number | null => {
+    if (value === null || value === undefined) return null
+    if (typeof value === 'number' && Number.isFinite(value)) return value
+    if (typeof value === 'string') {
+      const trimmed = value.trim()
+      if (!trimmed) return null
+      const parsed = Number(trimmed)
+      return Number.isFinite(parsed) ? parsed : null
+    }
+    return null
+  }
+
   const loadLivres = async () => {
     try {
       const response = await fetch('/api/livres?withIds=true')
       if (response.ok) {
         const data = await response.json()
-        setLivres(data)
+        const livresNormalises: LivreWithId[] = Array.isArray(data)
+          ? data.map((livre: any) => ({
+              id: livre?.id,
+              auteur: livre?.auteur ?? null,
+              titre: livre?.titre ?? null,
+              date: livre?.date ?? null,
+              editeur: livre?.editeur ?? null,
+              genre: livre?.genre ?? null,
+              info_supplementaires: livre?.info_supplementaires ?? null,
+              image_url: livre?.image_url ?? null,
+              priorite: normalizePriority(livre?.priorite)
+            }))
+          : []
+        setLivres(livresNormalises)
       }
     } catch (error) {
       console.error('Erreur lors du chargement des livres:', error)
@@ -189,6 +215,19 @@ function AdminContent() {
     if (!sortColumn) return livres
 
     return [...livres].sort((a, b) => {
+      if (sortColumn === 'priorite') {
+        const aValue = a.priorite ?? Number.POSITIVE_INFINITY
+        const bValue = b.priorite ?? Number.POSITIVE_INFINITY
+        if (aValue === bValue) {
+          const titreA = (a.titre || '').toLowerCase()
+          const titreB = (b.titre || '').toLowerCase()
+          return sortOrder === 'asc'
+            ? titreA.localeCompare(titreB, 'fr', { sensitivity: 'base' })
+            : titreB.localeCompare(titreA, 'fr', { sensitivity: 'base' })
+        }
+        return sortOrder === 'asc' ? aValue - bValue : bValue - aValue
+      }
+
       const aValue = (a[sortColumn as keyof LivreWithId] || '').toString().toLowerCase()
       const bValue = (b[sortColumn as keyof LivreWithId] || '').toString().toLowerCase()
       
@@ -311,6 +350,15 @@ function AdminContent() {
                   </th>
                   <th 
                     className="text-left py-3 px-4 text-primary-900 font-semibold cursor-pointer hover:bg-primary-50 transition-colors select-none"
+                    onClick={() => handleSort('priorite')}
+                  >
+                    <div className="flex items-center">
+                      Priorité
+                      <SortIcon column="priorite" />
+                    </div>
+                  </th>
+                  <th 
+                    className="text-left py-3 px-4 text-primary-900 font-semibold cursor-pointer hover:bg-primary-50 transition-colors select-none"
                     onClick={() => handleSort('titre')}
                   >
                     <div className="flex items-center">
@@ -380,6 +428,7 @@ function AdminContent() {
                         </div>
                       )}
                     </td>
+                    <td className="py-3 px-4 text-primary-700 font-medium">{livre.priorite ?? '-'}</td>
                     <td className="py-3 px-4 text-primary-700 font-medium">{livre.titre || '-'}</td>
                     <td className="py-3 px-4 text-primary-700 hidden md:table-cell">{livre.auteur || '-'}</td>
                     <td className="py-3 px-4 text-primary-700 hidden lg:table-cell">{livre.date || '-'}</td>
@@ -426,7 +475,8 @@ function LivreForm({ livre, onSave, onCancel }: { livre: LivreWithId | null, onS
     editeur: livre?.editeur || '',
     genre: livre?.genre || '',
     info_supplementaires: livre?.info_supplementaires || '',
-    image_url: livre?.image_url || ''
+    image_url: livre?.image_url || '',
+    priorite: livre?.priorite !== null && livre?.priorite !== undefined ? String(livre.priorite) : ''
   })
 
   // Mettre à jour le formulaire quand le livre change
@@ -439,7 +489,8 @@ function LivreForm({ livre, onSave, onCancel }: { livre: LivreWithId | null, onS
         editeur: livre.editeur || '',
         genre: livre.genre || '',
         info_supplementaires: livre.info_supplementaires || '',
-        image_url: livre.image_url || ''
+        image_url: livre.image_url || '',
+        priorite: livre.priorite !== null && livre.priorite !== undefined ? String(livre.priorite) : ''
       })
     } else {
       setFormData({
@@ -449,13 +500,17 @@ function LivreForm({ livre, onSave, onCancel }: { livre: LivreWithId | null, onS
         editeur: '',
         genre: '',
         info_supplementaires: '',
-        image_url: ''
+        image_url: '',
+        priorite: ''
       })
     }
   }, [livre])
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
+    const prioriteValue = formData.priorite.trim()
+    const prioriteNumber = prioriteValue === '' ? null : Number(prioriteValue)
+
     const livreData = {
       auteur: formData.auteur || null,
       titre: formData.titre || null,
@@ -463,7 +518,8 @@ function LivreForm({ livre, onSave, onCancel }: { livre: LivreWithId | null, onS
       editeur: formData.editeur || null,
       genre: formData.genre || null,
       info_supplementaires: formData.info_supplementaires || null,
-      image_url: formData.image_url || null
+      image_url: formData.image_url || null,
+      priorite: Number.isFinite(prioriteNumber) ? prioriteNumber : null
     }
     onSave(livreData)
   }
@@ -485,6 +541,19 @@ function LivreForm({ livre, onSave, onCancel }: { livre: LivreWithId | null, onS
               onChange={(e) => setFormData({ ...formData, titre: e.target.value })}
               className="w-full px-4 py-2 border-2 border-primary-200 rounded-lg focus:outline-none focus:border-primary-400"
               required
+            />
+          </div>
+          <div>
+            <label className="block text-sm font-medium text-primary-700 mb-2">
+              Priorité
+            </label>
+            <input
+              type="number"
+              min="0"
+              value={formData.priorite}
+              onChange={(e) => setFormData({ ...formData, priorite: e.target.value })}
+              className="w-full px-4 py-2 border-2 border-primary-200 rounded-lg focus:outline-none focus:border-primary-400"
+              placeholder="ex: 1"
             />
           </div>
           <div>

@@ -10,6 +10,7 @@ interface Livre {
   genre: string | null
   info_supplementaires: string | null
   image_url: string | null
+  priorite: number | null
 }
 
 interface LivreAvecAnnee extends Livre {
@@ -21,12 +22,36 @@ export default function DernieresParutionsPage() {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
+    const normalizePriority = (value: unknown): number | null => {
+      if (value === null || value === undefined) return null
+      if (typeof value === 'number' && Number.isFinite(value)) return value
+      if (typeof value === 'string') {
+        const trimmed = value.trim()
+        if (!trimmed) return null
+        const parsed = Number(trimmed)
+        return Number.isFinite(parsed) ? parsed : null
+      }
+      return null
+    }
+
+    const normalizeLivre = (livre: any): Livre => ({
+      auteur: livre?.auteur ?? null,
+      titre: livre?.titre ?? null,
+      date: livre?.date ?? null,
+      editeur: livre?.editeur ?? null,
+      genre: livre?.genre ?? null,
+      info_supplementaires: livre?.info_supplementaires ?? null,
+      image_url: livre?.image_url ?? null,
+      priorite: normalizePriority(livre?.priorite)
+    })
+
     const loadLivres = async () => {
       try {
         const response = await fetch('/api/livres')
         if (response.ok) {
           const data = await response.json()
-          setLivresData(data)
+          const livresNormalises = Array.isArray(data) ? data.map(normalizeLivre) : []
+          setLivresData(livresNormalises)
         }
       } catch (error) {
         console.error('Erreur lors du chargement des livres:', error)

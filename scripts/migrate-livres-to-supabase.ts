@@ -60,6 +60,18 @@ async function migrate() {
 
     console.log('📤 Importation des livres dans Supabase...')
 
+    const normalizePriority = (value: unknown): number | null => {
+      if (value === null || value === undefined) return null
+      if (typeof value === 'number' && Number.isFinite(value)) return value
+      if (typeof value === 'string') {
+        const trimmed = value.trim()
+        if (!trimmed) return null
+        const parsed = Number(trimmed)
+        return Number.isFinite(parsed) ? parsed : null
+      }
+      return null
+    }
+
     // Préparer les données pour l'insertion
     const livresToInsert = livres.map(livre => ({
       auteur: livre.auteur || null,
@@ -68,7 +80,8 @@ async function migrate() {
       editeur: livre.editeur || null,
       genre: livre.genre || null,
       info_supplementaires: livre.info_supplementaires || null,
-      image_url: livre.image_url || null
+      image_url: livre.image_url || null,
+      priorite: normalizePriority(livre.priorite)
     }))
 
     // Insérer par lots de 100 pour éviter les limites

@@ -11,6 +11,7 @@ CREATE TABLE IF NOT EXISTS livres (
   genre TEXT,
   info_supplementaires TEXT,
   image_url TEXT,
+  priorite INTEGER,
   created_at TIMESTAMP WITH TIME ZONE DEFAULT TIMEZONE('utc', NOW()) NOT NULL,
   updated_at TIMESTAMP WITH TIME ZONE DEFAULT TIMEZONE('utc', NOW()) NOT NULL
 );
@@ -23,6 +24,9 @@ CREATE INDEX IF NOT EXISTS idx_livres_genre ON livres(genre);
 
 -- Créer un index sur l'éditeur pour améliorer les performances de filtrage
 CREATE INDEX IF NOT EXISTS idx_livres_editeur ON livres(editeur);
+
+-- Créer un index sur la priorité pour accélérer les tris
+CREATE INDEX IF NOT EXISTS idx_livres_priorite ON livres(priorite);
 
 -- Activer Row Level Security (RLS)
 ALTER TABLE livres ENABLE ROW LEVEL SECURITY;

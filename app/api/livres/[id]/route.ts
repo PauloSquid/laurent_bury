@@ -1,6 +1,18 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { supabase, isSupabaseConfigured } from '@/lib/supabase'
 
+const normalizePriority = (value: unknown): number | null => {
+  if (value === null || value === undefined) return null
+  if (typeof value === 'number' && Number.isFinite(value)) return value
+  if (typeof value === 'string') {
+    const trimmed = value.trim()
+    if (!trimmed) return null
+    const parsed = Number(trimmed)
+    return Number.isFinite(parsed) ? parsed : null
+  }
+  return null
+}
+
 export async function GET(
   request: NextRequest,
   { params }: { params: Promise<{ id: string }> }
@@ -23,7 +35,10 @@ export async function GET(
     }
 
     const { id: _, created_at, updated_at, ...livre } = data
-    return NextResponse.json(livre)
+    return NextResponse.json({
+      ...livre,
+      priorite: normalizePriority((livre as any).priorite)
+    })
   } catch (error) {
     console.error('Erreur lors de la récupération:', error)
     return NextResponse.json({ error: 'Erreur lors de la récupération' }, { status: 500 })
@@ -51,7 +66,8 @@ export async function PUT(
         editeur: livre.editeur || null,
         genre: livre.genre || null,
         info_supplementaires: livre.info_supplementaires || null,
-        image_url: livre.image_url || null
+        image_url: livre.image_url || null,
+        priorite: normalizePriority(livre.priorite)
       })
       .eq('id', livreId)
       .select()
@@ -63,7 +79,10 @@ export async function PUT(
     }
 
     const { id: _, created_at, updated_at, ...livreResponse } = data
-    return NextResponse.json(livreResponse)
+    return NextResponse.json({
+      ...livreResponse,
+      priorite: normalizePriority((livreResponse as any).priorite)
+    })
   } catch (error) {
     console.error('Erreur lors de la mise à jour:', error)
     return NextResponse.json({ error: 'Erreur lors de la mise à jour' }, { status: 500 })
