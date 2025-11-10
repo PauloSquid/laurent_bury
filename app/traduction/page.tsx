@@ -17,11 +17,11 @@ interface Livre {
 function TraductionContent() {
   const searchParams = useSearchParams()
   const triParam = searchParams.get('tri')
-  const triInitial: 'priorite' | 'genre' | 'editeur' | 'date' =
-    triParam === 'genre' || triParam === 'editeur' || triParam === 'date' || triParam === 'priorite'
+  const triInitial: 'priorite' | 'genre' | 'editeur' | 'date' | 'auteur' =
+    triParam === 'genre' || triParam === 'editeur' || triParam === 'date' || triParam === 'priorite' || triParam === 'auteur'
       ? triParam
       : 'priorite'
-  const [tri, setTri] = useState<'priorite' | 'genre' | 'editeur' | 'date'>(triInitial)
+  const [tri, setTri] = useState<'priorite' | 'genre' | 'editeur' | 'date' | 'auteur'>(triInitial)
   const [recherche, setRecherche] = useState('')
   const [livresData, setLivresData] = useState<Livre[]>([])
   const [loading, setLoading] = useState(true)
@@ -149,6 +149,45 @@ function TraductionContent() {
       .filter(livre => livre.titre && livre.titre.trim() !== '')
       .filter(livre => correspondRecherche(livre, recherche))
       .sort((a, b) => {
+        // Si on est en mode "priorite" (Toutes), trier par priorité puis nom de famille d'auteur
+        if (tri === 'priorite') {
+          // D'abord, trier par priorité
+          const prioriteA = prioritizeValue(a.priorite)
+          const prioriteB = prioritizeValue(b.priorite)
+          if (prioriteA !== prioriteB) {
+            return prioriteA - prioriteB
+          }
+          
+          // Si même priorité, trier par nom de famille d'auteur
+          // Fonction pour extraire le nom de famille (dernier mot)
+          const extraireNomFamille = (nom: string | null): string => {
+            if (!nom || nom.trim() === '') return ''
+            const mots = nom.trim().split(/\s+/)
+            return mots.length > 0 ? mots[mots.length - 1].toLowerCase() : nom.toLowerCase()
+          }
+          
+          const nomFamilleA = extraireNomFamille(a.auteur)
+          const nomFamilleB = extraireNomFamille(b.auteur)
+          
+          if (nomFamilleA !== nomFamilleB) {
+            if (nomFamilleA === '') return 1
+            if (nomFamilleB === '') return -1
+            return nomFamilleA.localeCompare(nomFamilleB, 'fr', { sensitivity: 'base' })
+          }
+          
+          // Si même nom de famille, trier par nom complet d'auteur
+          const auteurA = (a.auteur || '').toLowerCase().trim()
+          const auteurB = (b.auteur || '').toLowerCase().trim()
+          if (auteurA !== auteurB) {
+            return auteurA.localeCompare(auteurB, 'fr', { sensitivity: 'base' })
+          }
+          
+          // Si même auteur, trier par titre
+          const titreA = (a.titre || '').toLowerCase()
+          const titreB = (b.titre || '').toLowerCase()
+          return titreA.localeCompare(titreB, 'fr', { sensitivity: 'base' })
+        }
+        // Sinon, trier par priorité puis titre (pour les autres modes)
         const prioriteA = prioritizeValue(a.priorite)
         const prioriteB = prioritizeValue(b.priorite)
         if (prioriteA !== prioriteB) {
@@ -158,7 +197,7 @@ function TraductionContent() {
         const titreB = (b.titre || '').toLowerCase()
         return titreA.localeCompare(titreB, 'fr', { sensitivity: 'base' })
       })
-  }, [livresData, recherche])
+  }, [livresData, recherche, tri])
 
   // Grouper par genre
   const livresParGenre = useMemo(() => {
@@ -214,6 +253,62 @@ function TraductionContent() {
     })
     // Trier les éditeurs par ordre alphabétique et les livres par date (plus récent en premier)
     return Object.keys(groupes).sort().reduce((acc, key) => {
+      const livres = groupes[key]
+      livres.sort((a, b) => {
+        const anneeA = extraireAnnee(a.date)
+        const anneeB = extraireAnnee(b.date)
+        if (anneeA !== anneeB) {
+          if (anneeA === null) return 1
+          if (anneeB === null) return -1
+          return anneeB - anneeA
+        }
+        const moisA = extraireMois(a.date)
+        const moisB = extraireMois(b.date)
+        if (moisA !== moisB) {
+          if (moisA === null) return 1
+          if (moisB === null) return -1
+          return moisB - moisA
+        }
+        const prioriteA = a.priorite ?? Number.POSITIVE_INFINITY
+        const prioriteB = b.priorite ?? Number.POSITIVE_INFINITY
+        if (prioriteA !== prioriteB) {
+          return prioriteA - prioriteB
+        }
+        const titreA = (a.titre || '').toLowerCase()
+        const titreB = (b.titre || '').toLowerCase()
+        return titreA.localeCompare(titreB, 'fr', { sensitivity: 'base' })
+      })
+      acc[key] = livres
+      return acc
+    }, {} as { [key: string]: Livre[] })
+  }, [livresValides])
+
+  // Grouper par auteur
+  const livresParAuteur = useMemo(() => {
+    const groupes: { [key: string]: Livre[] } = {}
+    livresValides.forEach(livre => {
+      const auteur = livre.auteur || 'Non spécifié'
+      if (!groupes[auteur]) {
+        groupes[auteur] = []
+      }
+      groupes[auteur].push(livre)
+    })
+    // Fonction pour extraire le nom de famille (dernier mot)
+    const extraireNomFamille = (nom: string): string => {
+      if (nom === 'Non spécifié') return nom
+      const mots = nom.trim().split(/\s+/)
+      return mots.length > 0 ? mots[mots.length - 1].toLowerCase() : nom.toLowerCase()
+    }
+    // Trier les auteurs par nom de famille (dernier mot) puis par nom complet
+    return Object.keys(groupes).sort((a, b) => {
+      const nomFamilleA = extraireNomFamille(a)
+      const nomFamilleB = extraireNomFamille(b)
+      if (nomFamilleA !== nomFamilleB) {
+        return nomFamilleA.localeCompare(nomFamilleB, 'fr', { sensitivity: 'base' })
+      }
+      // Si même nom de famille, trier par nom complet
+      return a.localeCompare(b, 'fr', { sensitivity: 'base' })
+    }).reduce((acc, key) => {
       const livres = groupes[key]
       livres.sort((a, b) => {
         const anneeA = extraireAnnee(a.date)
@@ -302,6 +397,8 @@ function TraductionContent() {
       ? livresParGenre
       : tri === 'editeur'
       ? livresParEditeur
+      : tri === 'auteur'
+      ? livresParAuteur
       : tri === 'date'
       ? livresParDate
       : {}
@@ -393,6 +490,16 @@ function TraductionContent() {
             }`}
           >
             Par genre
+          </button>
+          <button
+            onClick={() => setTri('auteur')}
+            className={`px-6 py-3 rounded-lg font-medium transition-all duration-200 ${
+              tri === 'auteur'
+                ? 'bg-primary-700 text-white shadow-lg scale-105'
+                : 'bg-white text-primary-700 border-2 border-primary-200 hover:border-primary-400 hover:bg-primary-50'
+            }`}
+          >
+            Par auteur
           </button>
           <button
             onClick={() => setTri('editeur')}
@@ -523,7 +630,7 @@ function TraductionContent() {
                           </div>
                         )}
                         <div className="space-y-1 flex-grow">
-                          {livre.auteur && (
+                          {livre.auteur && tri !== 'auteur' && (
                             <p className="text-sm font-semibold text-primary-800 line-clamp-1">
                               {livre.auteur}
                             </p>
@@ -536,12 +643,12 @@ function TraductionContent() {
                               {livre.date}
                             </p>
                           )}
-                          {livre.editeur && (tri === 'genre' || tri === 'date') && (
+                          {livre.editeur && (tri === 'genre' || tri === 'date' || tri === 'auteur') && (
                             <p className="text-xs text-primary-500 italic line-clamp-1">
                               {livre.editeur}
                             </p>
                           )}
-                          {livre.genre && (tri === 'editeur' || tri === 'date') && (
+                          {livre.genre && (tri === 'editeur' || tri === 'date' || tri === 'auteur') && (
                             <p className="text-xs text-primary-500 italic line-clamp-1">
                               {livre.genre}
                             </p>
