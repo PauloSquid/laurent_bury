@@ -238,13 +238,7 @@ function TraductionContent() {
             : nom.toLowerCase();
         };
         livres.sort((a, b) => {
-          // Trier par priorité d'abord
-          const prioriteA = a.priorite ?? Number.POSITIVE_INFINITY;
-          const prioriteB = b.priorite ?? Number.POSITIVE_INFINITY;
-          if (prioriteA !== prioriteB) {
-            return prioriteA - prioriteB;
-          }
-          // Puis par nom de famille d'auteur
+          // 1) Nom de famille d'auteur
           const nomFamilleA = extraireNomFamille(a.auteur);
           const nomFamilleB = extraireNomFamille(b.auteur);
           if (nomFamilleA !== nomFamilleB) {
@@ -254,13 +248,28 @@ function TraductionContent() {
               sensitivity: "base",
             });
           }
-          // Si même nom de famille, trier par nom complet d'auteur
+          // 2) Même nom de famille → trier par date (plus récent d'abord)
+          const anneeA = extraireAnnee(a.date);
+          const anneeB = extraireAnnee(b.date);
+          if (anneeA !== anneeB) {
+            if (anneeA === null) return 1;
+            if (anneeB === null) return -1;
+            return anneeB - anneeA;
+          }
+          const moisA = extraireMois(a.date);
+          const moisB = extraireMois(b.date);
+          if (moisA !== moisB) {
+            if (moisA === null) return 1;
+            if (moisB === null) return -1;
+            return moisB - moisA;
+          }
+          // 3) Même date → trier par nom complet d'auteur
           const auteurA = (a.auteur || "").toLowerCase().trim();
           const auteurB = (b.auteur || "").toLowerCase().trim();
           if (auteurA !== auteurB) {
             return auteurA.localeCompare(auteurB, "fr", { sensitivity: "base" });
           }
-          // Si même auteur, trier par titre
+          // 4) Même auteur → trier par titre
           const titreA = (a.titre || "").toLowerCase();
           const titreB = (b.titre || "").toLowerCase();
           return titreA.localeCompare(titreB, "fr", { sensitivity: "base" });
@@ -294,13 +303,7 @@ function TraductionContent() {
             : nom.toLowerCase();
         };
         livres.sort((a, b) => {
-          // Trier par priorité d'abord
-          const prioriteA = a.priorite ?? Number.POSITIVE_INFINITY;
-          const prioriteB = b.priorite ?? Number.POSITIVE_INFINITY;
-          if (prioriteA !== prioriteB) {
-            return prioriteA - prioriteB;
-          }
-          // Puis par nom de famille d'auteur
+          // 1) Nom de famille d'auteur
           const nomFamilleA = extraireNomFamille(a.auteur);
           const nomFamilleB = extraireNomFamille(b.auteur);
           if (nomFamilleA !== nomFamilleB) {
@@ -310,13 +313,28 @@ function TraductionContent() {
               sensitivity: "base",
             });
           }
-          // Si même nom de famille, trier par nom complet d'auteur
+          // 2) Même nom de famille → trier par date (plus récent d'abord)
+          const anneeA = extraireAnnee(a.date);
+          const anneeB = extraireAnnee(b.date);
+          if (anneeA !== anneeB) {
+            if (anneeA === null) return 1;
+            if (anneeB === null) return -1;
+            return anneeB - anneeA;
+          }
+          const moisA = extraireMois(a.date);
+          const moisB = extraireMois(b.date);
+          if (moisA !== moisB) {
+            if (moisA === null) return 1;
+            if (moisB === null) return -1;
+            return moisB - moisA;
+          }
+          // 3) Même date → trier par nom complet d'auteur
           const auteurA = (a.auteur || "").toLowerCase().trim();
           const auteurB = (b.auteur || "").toLowerCase().trim();
           if (auteurA !== auteurB) {
             return auteurA.localeCompare(auteurB, "fr", { sensitivity: "base" });
           }
-          // Si même auteur, trier par titre
+          // 4) Même auteur → trier par titre
           const titreA = (a.titre || "").toLowerCase();
           const titreB = (b.titre || "").toLowerCase();
           return titreA.localeCompare(titreB, "fr", { sensitivity: "base" });
