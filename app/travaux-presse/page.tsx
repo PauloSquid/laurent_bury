@@ -22,7 +22,7 @@ export default function TravauxPressePage() {
           <div className="mb-8 pb-8 border-b border-primary-200">
             <h3 className="text-xl font-serif font-semibold text-primary-900 mb-4">Dossiers de presse traduits du français vers l'anglais :</h3>
             <ul className="space-y-2 text-primary-700 list-disc list-inside">
-              <li>Festival d'Aix-en-Provence, éditions 2023, 2024 et 2025</li>
+              <li>Festival d'Aix-en-Provence, à partir de l'édition 2023</li>
               <li>Opéra d'Athènes, saison 2025-26</li>
               <li>
                 Dossier de presse <em>2025 Année Boulez</em> pour la Philharmonie de Paris

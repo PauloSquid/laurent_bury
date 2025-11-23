@@ -62,11 +62,12 @@ export default function CVContactPage() {
             <h3 className="text-xl font-serif font-semibold text-primary-900 mb-4">Activités</h3>
             <div className="space-y-4 text-primary-700 leading-relaxed">
               <p>
-                Rédaction de critiques (opéras, disques, livres, expositions) pour le magazine
-                <em> Classica</em> et sur les sites{' '}
+                Rédaction de critiques (opéras, disques, livres, expositions) pour les sites{' '}
                 <a href="http://www.concertclassic.com" target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:text-primary-900 underline transition-colors">concertclassic.com</a>,{' '}
+                <a href="http://www.classica.fr" target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:text-primary-900 underline transition-colors">classica.fr</a>,{' '}
                 <a href="http://www.wanderersite.com" target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:text-primary-900 underline transition-colors">wanderersite.com</a>,{' '}
-                <a href="http://www.premiere-loge.fr" target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:text-primary-900 underline transition-colors">premiere-loge.fr</a>.
+                <a href="http://www.premiere-loge.fr" target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:text-primary-900 underline transition-colors">premiere-loge.fr</a> et{' '}
+                <a href="http://www.musikzen.com" target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:text-primary-900 underline transition-colors">musikzen.com</a>.
               </p>
 
               <p>
@@ -79,9 +80,7 @@ export default function CVContactPage() {
               </p>
 
               <p>
-                Rédaction d'articles pour <em>L'Avant-Scène Opéra</em> :
-                <em> « Myfanwy Piper au service de Britten »</em> (n° 320, <em>La Mort à Venise</em>) et
-                <em> « Montagu Slater, librettiste rouge »</em> (n° 326, <em>Peter Grimes</em>).
+                Rédaction d'articles pour <em>L'Avant-Scène Opéra</em> : « Myfanwy Piper au service de Britten » (n° 320, <em>La Mort à Venise</em>), « Montagu Slater, librettiste rouge » (n° 326, <em>Peter Grimes</em>) et « Avec l'accent : de 'Crusoe' à 'Crusoé', Offenbach à l'heure anglaise » (n° 346, <em>Robinson Crusoé</em>).
               </p>
             </div>
           </div>
@@ -91,7 +90,7 @@ export default function CVContactPage() {
             <h3 className="text-xl font-serif font-semibold text-primary-900 mb-4">Publications</h3>
             <ul className="space-y-3 text-primary-700">
               <li>
-                <em>Liberty, Duality, Urbanity : Charles Dickens's</em> <strong>A Tale of Two Cities</strong>, PUF, octobre 2012.
+                <em>Liberty, Duality, Urbanity : Charles Dickens's A Tale of Two Cities</em>, PUF, octobre 2012.
               </li>
               <li>
                 <em>L'Orientalisme victorien dans les arts visuels et la littérature</em>, PU de Grenoble, janvier 2011.
@@ -121,8 +120,8 @@ export default function CVContactPage() {
                 <a href="https://www.facebook.com/profile.php?id=100008300803952" target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:text-primary-900 underline transition-colors">Page Facebook</a>
               </p>
               <p>
-                <strong>Sur Twitter :</strong>{' '}
-                <a href="https://twitter.com/LaurentBury1" target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:text-primary-900 underline transition-colors">@LaurentBury1</a>
+                <strong>Sur LinkedIn :</strong>{' '}
+                <a href="https://www.linkedin.com/in/laurent-bury-a2190b58/?originalSubdomain=fr" target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:text-primary-900 underline transition-colors">Laurent Bury</a>
               </p>
               <p>
                 <strong>Par téléphone :</strong> 06 43 10 69 40
