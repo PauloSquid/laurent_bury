@@ -12,40 +12,56 @@ Une route API `/api/keep-alive` a été créée pour faire des requêtes légèr
 
 ## Configuration du Cron Job
 
-### Option 1 : Utiliser Vercel Cron (Recommandé si déployé sur Vercel)
+### ⚠️ Limitation importante : Plan Hobby Vercel
 
-Si votre projet est déployé sur Vercel, vous pouvez utiliser Vercel Cron Jobs.
+**Sur le plan Hobby (gratuit) de Vercel :**
+- Les cron jobs ne peuvent être déclenchés qu'**une seule fois par jour**
+- L'exécution peut avoir lieu n'importe quand dans la fenêtre horaire (ex: entre 12h00 et 12h59)
+- Pour plus de requêtes par jour, vous devez utiliser un service externe (voir Option 2)
 
-1. Créez un fichier `vercel.json` à la racine du projet (ou modifiez-le s'il existe) :
+### Option 1 : Utiliser Vercel Cron (Une fois par jour uniquement)
+
+Si votre projet est déployé sur Vercel avec le plan Hobby, vous pouvez utiliser Vercel Cron Jobs, mais seulement une fois par jour.
+
+Le fichier `vercel.json` est déjà configuré pour appeler la route une fois par jour à midi :
 
 ```json
 {
   "crons": [
     {
       "path": "/api/keep-alive",
-      "schedule": "0 */6 * * *"
+      "schedule": "0 12 * * *"
     }
   ]
 }
 ```
 
-Cette configuration appelle la route toutes les 6 heures.
+**Autres options de schedule (une fois par jour) :**
+- `0 0 * * *` - Minuit chaque jour
+- `0 12 * * *` - Midi chaque jour (actuel)
+- `0 18 * * *` - 18h chaque jour
 
-**Autres options de fréquence :**
-- `0 */4 * * *` - Toutes les 4 heures
-- `0 */3 * * *` - Toutes les 3 heures
-- `0 */2 * * *` - Toutes les 2 heures
-- `0 * * * *` - Toutes les heures
-- `*/30 * * * *` - Toutes les 30 minutes
+**Note :** Une seule requête par jour peut ne pas suffire pour éviter la mise en pause de Supabase. Il est **fortement recommandé** d'utiliser un service externe (Option 2) pour avoir plusieurs requêtes par jour.
 
-2. Poussez les changements sur votre dépôt Git
-3. Vercel détectera automatiquement le fichier `vercel.json` et configurera les cron jobs
-
-### Option 2 : Utiliser un service externe (cron-job.org, EasyCron, etc.)
+### Option 2 : Utiliser un service externe (Recommandé pour plusieurs requêtes par jour)
 
 Si vous n'êtes pas sur Vercel ou préférez un service externe :
 
-#### Avec cron-job.org (Gratuit)
+#### Avec cron-job.org (Gratuit - Recommandé)
+
+1. Allez sur [https://cron-job.org](https://cron-job.org)
+2. Créez un compte gratuit
+3. Créez un nouveau cron job :
+   - **URL** : `https://votre-domaine.com/api/keep-alive`
+   - **Schedule** : Toutes les 4-6 heures (recommandé : `0 */4 * * *`)
+   - **Méthode** : GET
+   - **Timeout** : 30 secondes
+4. Activez le cron job
+
+**Avantages :**
+- Gratuit
+- Permet plusieurs requêtes par jour
+- Plus fiable que le plan Hobby de Vercel
 
 1. Allez sur [https://cron-job.org](https://cron-job.org)
 2. Créez un compte gratuit
@@ -78,11 +94,11 @@ Si vous n'êtes pas sur Vercel ou préférez un service externe :
 ## Fréquence recommandée
 
 Pour éviter la mise en pause de Supabase, il est recommandé de faire des requêtes :
-- **Minimum** : Toutes les 6 heures
-- **Recommandé** : Toutes les 3-4 heures
-- **Idéal** : Toutes les 2 heures
+- **Minimum** : Une fois par jour (si vous utilisez uniquement Vercel Hobby)
+- **Recommandé** : Toutes les 4-6 heures (nécessite un service externe)
+- **Idéal** : Toutes les 2-3 heures (nécessite un service externe)
 
-Plus la fréquence est élevée, moins vous risquez de recevoir des emails de mise en pause.
+**Important :** Si vous utilisez uniquement le cron job Vercel (plan Hobby), vous n'aurez qu'une seule requête par jour, ce qui peut ne pas suffire. Il est **fortement recommandé** d'utiliser un service externe comme cron-job.org pour avoir plusieurs requêtes par jour et éviter les emails de mise en pause.
 
 ## Test de la route
 
@@ -118,9 +134,10 @@ Les requêtes de keep-alive sont très légères (un simple SELECT avec LIMIT 1)
 
 ### Supabase se met toujours en pause
 
-1. Augmentez la fréquence des requêtes (toutes les 2-3 heures au lieu de 6)
-2. Vérifiez que les requêtes arrivent bien (logs Supabase)
-3. Assurez-vous que le cron job est bien actif
+1. **Si vous utilisez uniquement Vercel Hobby** : Une seule requête par jour n'est probablement pas suffisante. Utilisez un service externe (cron-job.org) pour avoir plusieurs requêtes par jour.
+2. Augmentez la fréquence des requêtes (toutes les 2-3 heures au lieu de 6)
+3. Vérifiez que les requêtes arrivent bien (logs Supabase)
+4. Assurez-vous que le cron job est bien actif
 
 ### Erreur 503 sur la route
 
