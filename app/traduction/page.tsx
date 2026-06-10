@@ -199,6 +199,7 @@ function TraductionContent() {
       "Romans contemporains",
       "Romans policiers",
       "Romans policiers, thrillers",
+      "Fantasy, Romance",
       "Fantasy",
       "Histoire",
       "Monde contemporain",
@@ -206,8 +207,8 @@ function TraductionContent() {
       "Economie",
       "Sociologie",
       "Développement personnel",
-      "Divers",
       "Beaux-arts, musique",
+      "Divers",
     ];
 
     // Fonction pour obtenir l'index d'un genre dans l'ordre spécifique
